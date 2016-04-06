@@ -15,23 +15,23 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="revealjs/css/reveal.css">
-    <link rel="stylesheet" href="revealjs/css/theme/solarized.css" id="theme">
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
 
     <!-- Printing and PDF exports -->
     <script>
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
     <!--[if lt IE 9]>
-    <script src="revealjs/lib/js/html5shiv.js"></script>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
@@ -48,8 +48,8 @@
 
 </div>
 
-<script src="revealjs/lib/js/head.min.js"></script>
-<script src="revealjs/js/reveal.js"></script>
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
 
 <script>
 
@@ -66,29 +66,29 @@
         // Optional reveal.js plugins
         dependencies: [
             {
-                src: 'revealjs/lib/js/classList.js', condition: function () {
+                src: 'reveal.js/lib/js/classList.js', condition: function () {
                 return !document.body.classList;
             }
             },
             {
-                src: 'revealjs/plugin/markdown/marked.js', condition: function () {
+                src: 'reveal.js/plugin/markdown/marked.js', condition: function () {
                 return !!document.querySelector('[data-markdown]');
             }
             },
             {
-                src: 'revealjs/plugin/markdown/markdown.js', condition: function () {
+                src: 'reveal.js/plugin/markdown/markdown.js', condition: function () {
                 return !!document.querySelector('[data-markdown]');
             }
             },
             {
-                src: 'revealjs/plugin/highlight/highlight.js', async: true, condition: function () {
+                src: 'reveal.js/plugin/highlight/highlight.js', async: true, condition: function () {
                 return !!document.querySelector('pre code');
             }, callback: function () {
                 hljs.initHighlightingOnLoad();
             }
             },
-            {src: 'revealjs/plugin/zoom-js/zoom.js', async: true},
-            {src: 'revealjs/plugin/notes/notes.js', async: true}
+            {src: 'reveal.js/plugin/zoom-js/zoom.js', async: true},
+            {src: 'reveal.js/plugin/notes/notes.js', async: true}
         ]
     });
 

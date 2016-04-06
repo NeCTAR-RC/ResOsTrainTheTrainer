@@ -15,23 +15,23 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="revealjs/css/reveal.css">
-    <link rel="stylesheet" href="revealjs/css/theme/solarized.css" id="theme">
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
 
     <!-- Printing and PDF exports -->
     <script>
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
     <!--[if lt IE 9]>
-    <script src="revealjs/lib/js/html5shiv.js"></script>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
@@ -45,11 +45,177 @@
 <style type="text/css">.reveal ol {list-style-type: upper-alpha;}</style>
 <!-- Slides go here -->
 <section data-markdown><script type="text/template">
+## Train the Trainer
+
+Your guides today:
+
+* Martin Paulo (martin.paulo@unimelb.edu.au)
+* Jared Winton (jwinton@unimelb.edu.au)
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## In the beginning was ResBaz
+
+ResBaz (the [Research Bazaar](http://melbourne.resbaz.edu.au/)) is a campaign, a community and conference.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## We noticed
+
+That an increasing number of researchers were turning to the cloud
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## We realized
+
+There was a training gap
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Hence
+
+We developed a course
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## What is ResOS?
+
+ResOS == Researcher Operating System
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## ResOS: what is it?
+
+1. Researcher Open Source
+1. Researcher Onion Storage
+1. Researcher Open Storage
+1. Researcher Operating System
+1. A conceit
+
+</script></section>
+<section data-markdown><script type="text/template">
 
 # Software Carpentry: an overview
 
-**NB** The ResOS training is *not* a Software Carpentry course. However, we have based the way the material
-was developed and its content on many of the concepts and ideas that Software Carpentry taught us.
+**NB** ResOS training is *not* a Software Carpentry course.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Lesson 1
+
+* Week long courses frazzle the attendees brains
+* Textbook SLDC<sup>1</sup> is not useful to researchers
+
+1: [Software Development Life Cycle](http://www.tutorialspoint.com/sdlc/sdlc_overview.htm)
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Lesson 2
+
+* Most computer scientists don't have an interest in solving this problem
+* The target market is new postgraduates
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Lesson 3: The MOOC<sup>1</sup>
+
+* Video's are a huge amount of effort
+* Most people don't complete the courses
+
+1: Massive Open Online Courses
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Who's done a MOOC?
+
+* <span style="color:green">&#9632;</span> = Yes!
+* <span style="color:red">&#9632;</span> = No: why would I?
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Who's finished all the MOOC's they have started?
+
+* <span style="color:green">&#9632;</span> = Yes!
+* <span style="color:red">&#9632;</span> = Life. Just keeps on interfering :(
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Format
+
+* A two day workshop
+* Covering a small set of tools
+* That introduce high level concepts
+* With the goal of teaching computational competence
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Guidelines
+
+* No more than 40 people in a workshop
+* If possible, parallel sessions, with attendees streamed by ability
+
+If parallel sessions are run, then:
+
+* A pre-assesment questionnaire is used to create the groups
+* People are not swapped from group to group
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Staffing
+
+* An instructor up front
+* At least 1 helper per 8 attendees
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Feedback loops
+
+* Sticky notes
+* Minute cards
+* Summary feedback
+* Post workshop assesments
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## To which we've added
+
+* Multi choice questions
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Delivery
+
+* Live coding
+* Two devices for the instructor
+* An Etherpad session
+* Learners work on their own machines
+* Pair programming (so dinner table style rooms over lecture theaters)
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Biggest challenges
+
+* Are they truly helping researchers?
+* Diversity of learners - 20% bored, 20% lost :(
+* People don't contribute back...
 
 </script></section>
 <section data-markdown><script type="text/template">
@@ -102,17 +268,196 @@ was developed and its content on many of the concepts and ideas that Software Ca
 </script></section>
 <section data-markdown><script type="text/template">
 
-## BTW: who'se seen this:
+## BTW - who has seen this:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/vJG698U2Mvo" frameborder="0" allowfullscreen></iframe>
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## We only use 10% of our brain...
+
+* <span style="color:green">&#9632;</span> = True.
+* <span style="color:red">&#9632;</span> = False.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Subscribe!
+
+These are just some of the fascinating facts we have learnt from the Software Carpentry mailing lists.
+
+If you are going to be doing a lot of training consider subscribing...
+
+</script></section>
+<section data-markdown><script type="text/template">
+**Name:**  Associate Professor Glenn Bording
+
+**Job title:**  Senior researcher and lecturer, Radio Astronomy group
+
+**Demographics:**
+
+* 40 years old
+* Programming experience in C and Fortran
+* Basic HPC experience
+* Prefers to work with physical hardware
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+**Background:**
+
+* While preparing a new course for undergraduates, developed a computing challenge to support research using real data
+* Realised the BYOD for most students were not powerful enough
+* Labs not suitable for task
+* Teaching parallel programming and getting accounts for students would be difficult
+* Heard about the research cloud
+
+**Goal:**
+
+* Now keen to learn about ResOS to see if it solves this problem.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Do you know what markdown is?
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Open the following site:
+
+http://markdown-here.com/livedemo.html
+
+* <span style="color:green">&#9632;</span> = I'm ready to proceed.
+* <span style="color:red">&#9632;</span> = What: there is no such site!
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+# This is a heading
+
+Followed by a **paragraph**
+
+### and a subheading
+
+* with a bullet
+* list
+
+```bash
+# this is pretty printed bash code
+ls -al
+```
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Do you know what git is?
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Which of these is false:
+
+Git:
+
+1. Is a version control system
+1. Is a distributed version control system
+1. Is able to run offline
+1. Has three states for files: modified, staged, committed
+1. Can do your head in...
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+"I have a plan so cunning you could put a tail on it and call it a weasel"
+
+AKA: [REVEAL.JS](http://lab.hakim.se/reveal-js/#/)
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+`-- *Slide* --`
+
+And any text between lines that have only the above marker
+
+And finish with only the below marker
+
+`-- *Slide End* --`
+
+Is extracted into a lesson slide.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## To give the lessons (basic)
+
+* Clone the repository
+* Update the repository submodules
+* Open the lesson slides in your browser
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Can you open, say Lesson_II.html in your browser?
+
+And step through some of the slides?
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = Houston, we've had a problem here!
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## What's the current version number?
+
+1. 1.0.0
+1. 1.0.1
+1. 1.1.0
+1. 1.1.1
+1. 1.2.0
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Can you list the tags?
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Can you see if there are any commits?
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## How to checkout a specific tag:
+
+$ git checkout tags/<tag_name>
+
+## Can you checkout version 1.0.0?
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = No.
 
 </script></section>
     </div>
 
 </div>
 
-<script src="revealjs/lib/js/head.min.js"></script>
-<script src="revealjs/js/reveal.js"></script>
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
 
 <script>
 
@@ -129,29 +474,29 @@ was developed and its content on many of the concepts and ideas that Software Ca
         // Optional reveal.js plugins
         dependencies: [
             {
-                src: 'revealjs/lib/js/classList.js', condition: function () {
+                src: 'reveal.js/lib/js/classList.js', condition: function () {
                 return !document.body.classList;
             }
             },
             {
-                src: 'revealjs/plugin/markdown/marked.js', condition: function () {
+                src: 'reveal.js/plugin/markdown/marked.js', condition: function () {
                 return !!document.querySelector('[data-markdown]');
             }
             },
             {
-                src: 'revealjs/plugin/markdown/markdown.js', condition: function () {
+                src: 'reveal.js/plugin/markdown/markdown.js', condition: function () {
                 return !!document.querySelector('[data-markdown]');
             }
             },
             {
-                src: 'revealjs/plugin/highlight/highlight.js', async: true, condition: function () {
+                src: 'reveal.js/plugin/highlight/highlight.js', async: true, condition: function () {
                 return !!document.querySelector('pre code');
             }, callback: function () {
                 hljs.initHighlightingOnLoad();
             }
             },
-            {src: 'revealjs/plugin/zoom-js/zoom.js', async: true},
-            {src: 'revealjs/plugin/notes/notes.js', async: true}
+            {src: 'reveal.js/plugin/zoom-js/zoom.js', async: true},
+            {src: 'reveal.js/plugin/notes/notes.js', async: true}
         ]
     });
 
