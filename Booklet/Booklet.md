@@ -1,11 +1,12 @@
 # Contents
 
+* [Introduction](#introduction)
+* [Software Carpentry: an overview](#software-carpentry-an-overview)
+
 # Introduction
 
 -- *Slide* --
-## Train the Trainer
-
-Your guides today:
+## Your guides today:
 
 * Martin Paulo (martin.paulo@unimelb.edu.au)
 * Jared Winton (jwinton@unimelb.edu.au)
@@ -778,7 +779,10 @@ Now there's no need for you to generate the slides: we've checked the generated 
 
 * Clone the repository
 * Update the repository submodules
-* Open the lesson slides in your browser
+* Choose the tag you want to use
+* Optional: Update the introductory slide with your name
+* Optional: Regenerate the slides
+* Open the lesson slides in your browser!
 
 -- *Slide End* --
 
@@ -843,7 +847,7 @@ You might have to explain the above command on a board...
 
 -- *Slide* --
 
-## Can you see if there are any commits?
+## Can you see if there are any commits since the last tag?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -854,7 +858,7 @@ It's good to check to see if there are any changes since the last tag: and if yo
 in your lessons or not.
 
 If you have a set of notes for a particular version of the course, and that's what you want to
-deliver
+deliver you can checkout that particular tag and use it.
 
 -- *Slide* --
 
@@ -868,6 +872,21 @@ $ git checkout tags/<tag_name>
 * <span style="color:red">&#9632;</span> = No.
 
 -- *Slide End* --
+
+
+-- *Slide* --
+
+## Did you get a "detached HEAD" warning?
+
+### DON'T PANIC!
+
+* <span style="color:green">&#9632;</span> = Yes.
+* <span style="color:red">&#9632;</span> = No.
+
+-- *Slide End* --
+
+Git is just letting you know that your lessons are no longer on a branch, but on a previous commit.
+
 
 
 # A walk through the course material
