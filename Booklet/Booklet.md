@@ -233,7 +233,7 @@ Sticky notes are handed out to learners:
 * two different colours (typically, Red and Green)
 * used for true/false answers
 * to show pain if not not coping
-* and to signal that activies are completed
+* and to signal that activities are completed
 
 Minute cards:
 
@@ -912,6 +912,31 @@ If you can't find it, hold up a Red sticky note, otherwise, a Green one to let m
 
 Is the paint video a better way to explain keys? https://www.youtube.com/watch?v=YEBfamv-_do
 
+# Course feedback
+
+We have found the Software Carpentry technique of using sticky notes to be very handy.
+
+To recap: at the end of a session, learners write one thing
+
+* that they've learnt on their green sticky note
+* that they found confusing on their red sticky note
+
+-- *Slide* --
+
+## Sample feedback from a course
+
+Voyeurs: http://tinyurl.com/ResOsTnT
+
+-- *Slide End* --
+
+The instructors
+
+
+
+# Tiny URL
+
+http://bit.do/list-of-url-shorteners.php
+
 # Preparation
 
 You, the presenter, will need to:
@@ -981,10 +1006,13 @@ If it's not there, or doesn't work as expected, make a new image to use.
 # A discussion on delivering the course material
 
 
-
-# Course feedback
-
 # How to contribute changes back to the course
+
+
+The software carpentry store: http://www.cafepress.com/swcarpentry
+
+Log shell output to etherpad: https://github.com/c-martinez/shellther
+https://github.com/c-martinez/shellther
 
 
 
