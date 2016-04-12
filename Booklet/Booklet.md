@@ -253,6 +253,7 @@ feedback into the next iteration.
 Post workshop assessments:
 
 After the workshop an assessment is sent to the attendees. These don't have high return rates.
+
 Instructors are also requested to provide feedback in debriefing sessions.
 
 -- *Slide* --
@@ -888,7 +889,6 @@ $ git checkout tags/<tag_name>
 Git is just letting you know that your lessons are no longer on a branch, but on a previous commit.
 
 
-
 # A walk through the course material
 
 
@@ -915,6 +915,13 @@ Is the paint video a better way to explain keys? https://www.youtube.com/watch?v
 # Course feedback
 
 We have found the Software Carpentry technique of using sticky notes to be very handy.
+And the multi-choice questions also give a really good idea as to who needs more explanation. They also allow
+us to break up the proceedings with some humour.
+
+The multi choice question answer cards are a real pain to manage and distribute. Having each answer a different
+colour works really well in allowing us to see who has answered what without having to read the cards.
+
+We've also found that the use of minute cards is brilliant:
 
 To recap: at the end of a session, learners write one thing
 
@@ -925,17 +932,81 @@ To recap: at the end of a session, learners write one thing
 
 ## Sample feedback from a course
 
-Voyeurs: http://tinyurl.com/ResOsTnT
+### Voyeurs!
+
+[http://tinyurl.com/ResOsTnT](https://github.com/MartinPaulo/ResOsTrainTheTrainer/blob/master/Booklet/Results.md)
 
 -- *Slide End* --
 
-The instructors
+Instructor feedback is also something we practice.
 
+Although I suspect that this might be largely self affirming. In which case do we get value from it?
+
+The post workshop assessment is another practice that the University follows.
+
+To do this we use the Net Promoter Score metric.
+
+We send out an email customized to the session, along the lines of:
+
+-- *Slide* --
+
+Thank you so much for attending the basic high performance computing with NeCTAR course yesterday.
+
+If you haven’t done so already, please take two minutes to fill out this anonymous two-question survey on how you felt the training went:
+
+https://docs.google.com/forms/d/18-FVw2R3svRyh6AE4ropHcors0wc50tqoBX5R5dUOOoo/viewform
+
+For those of you who asked for more links to material on the cloud side:
+
+We covered the basic concepts:
+         http://training.nectar.org.au/package01/sections/all.html
+         http://training.nectar.org.au/package05/sections/all.html
+
+...
+
+-- *Slide End* --
+
+When the learners click on the link they see the following Google form:
+
+-- *Slide* --
+
+### Feedback form
+
+![The post workshop assessment form](https://raw.githubusercontent.com/MartinPaulo/ResOsTrainTheTrainer/master/Booklet/PostCourseFollowUp.png "NPS Form")
+
+-- *Slide End* --
+
+The form asks for one question on a numeric scale to be answered. Those who answer
+
+* 9 - 10 are  seen as promoters
+* 7 -8 are seen as passive
+* Everything below this is seen as being detractors.
+
+-- *Slide* --
+
+## Net Promoter Score
+
+For more on this:
+
+[http://tinyurl.com/ResOsNps](https://en.wikipedia.org/wiki/Net_Promoter)
+
+-- *Slide End* --
+
+We haven't trialed summary feedback yet :(
 
 
 # Tiny URL
 
-http://bit.do/list-of-url-shorteners.php
+There are URL's in our material. We do put them into the course Etherpad, but find that our learners don't
+engage with the Etherpad. To work around this, and make it simple for learners to enter a url from the slide
+we decided to use a URL shortner.
+
+There are a lot of [url shortners out there](http://bit.do/list-of-url-shorteners.php).
+
+We wanted something that users could read and type in, so we settled on [TinyURL.com](http://tinyurl.com)
+
+
+
 
 # Preparation
 
@@ -1012,7 +1083,7 @@ If it's not there, or doesn't work as expected, make a new image to use.
 The software carpentry store: http://www.cafepress.com/swcarpentry
 
 Log shell output to etherpad: https://github.com/c-martinez/shellther
-https://github.com/c-martinez/shellther
+
 
 
 
