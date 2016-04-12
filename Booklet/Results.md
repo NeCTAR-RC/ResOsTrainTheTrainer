@@ -18,7 +18,7 @@ The task given was:
 "*Write one thing you've learnt on the green sticky note, and one thing you found confusing on
 the red sticky note.*"
 
-10 greed cards completed<sup>1</sup>
+10 green notes completed<sup>1</sup>
 
 | Green |
 | ----- |
@@ -26,17 +26,17 @@ the red sticky note.*"
 | Very interesting |
 | Learnt how to use the dashboard |
 | I've got a better idea of what the research cloud is |
-| learnt how to access the NeCTAR cloud |
+| Learnt how to access the NeCTAR cloud |
 | Great! Liked the flashcards |
 | Good explanation |
-| learnt how to use the cloud |
+| Learnt how to use the cloud |
 | Good intro: loved it! |
 | Great review questions! |
 | The material is very good |
 | Great course! |
 | Everything I learnt was new to me |
 
-8 red cards completed<sup>1</sup>
+8 red notes completed<sup>1</sup>
 
 | Red | Comment |
 | --- | ------- |
@@ -57,8 +57,9 @@ the red sticky note.*"
 
 After lunch only 7 people returned. Another drifted in an hour later.
 
-For this event it turned out that there was some confusion about
-about the actual course dates and times :(
+For this event it turned out that there was [some confusion about
+about the actual course dates and times](https://www.eventbrite.com.au/e/introduction-to-hpc-and-cloud-computing-tickets-24045681280)
+by attendees :(
 
 Of those 7, 3 had to leave early, meaning only 4 were there at the end.
 
