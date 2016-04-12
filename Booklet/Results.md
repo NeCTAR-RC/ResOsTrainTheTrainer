@@ -13,23 +13,28 @@ Lesson 8: The Object store
 
 ## Lesson 1
 
+The task given was:
+
+"*Write one thing you've learnt on the green sticky note, and one thing you found confusing on
+the red sticky note.*"
+
 10 greed cards completed<sup>1</sup>
 
-| Green | Comment |
-| ----- | ------- |
+| Green |
+| ----- |
 | Very easy to follow |
 | Very interesting |
 | Learnt how to use the dashboard |
 | I've got a better idea of what the research cloud is |
-| Learned how to access the NeCTAR cloud |
+| learnt how to access the NeCTAR cloud |
 | Great! Liked the flashcards |
 | Good explanation |
-| Learned how to use the cloud |
+| learnt how to use the cloud |
 | Good intro: loved it! |
 | Great review questions! |
 | The material is very good |
 | Great course! |
-| Everything I learned was new to me |
+| Everything I learnt was new to me |
 
 8 red cards completed<sup>1</sup>
 
@@ -38,7 +43,7 @@ Lesson 8: The Object store
 | Maybe initialize an instance to demystify the process | My mistake. I ordinarily do, but due to time pressure, skipped this :( |
 | Show how to launch an instance! | " |
 | Would love to see what an instance looks like before ending | " |
-| Some of the terminology needs more explanation | Possibly how  |
+| Some of the terminology needs more explanation | Hmm. How?  |
 | Would love to benefit from a clearer understanding of who is presenting | My bad. I didn't do great introductions |
 | More time would be good | A problem for us: This depends so much on the individual. |
 | More discussion on the benefits of using NeCTAR | Good point. |
@@ -46,16 +51,23 @@ Lesson 8: The Object store
 | More technical things, please | " |
 | I would like to learn more about cloud orchestration | A bit much to chew off in 1 day |
 
-1: Some cards had multiple points on them.
+1: Some notes had multiple points on them.
 
 ## The day as a whole
 
-After lunch only 7 people returned :(
+After lunch only 7 people returned. Another drifted in an hour later.
+
+For this event it turned out that there was some confusion about
+about the actual course dates and times :(
 
 Of those 7, 3 had to leave early, meaning only 4 were there at the end.
 
 Of those 4 only three left feedback.
 
+The question asked was:
+
+"*Write one thing you've liked about the course on the green sticky note,
+and one thing we can do to improve the course on the red sticky note.*"
 
 | Green |
 | ----- |
@@ -75,13 +87,15 @@ set, but in future we should possibly split it into different streams. The downs
 is that Spartan users need to understand the underlying cloud architecture, so they need the
 cloud knowledge.
 
-The etherpad didn't work very well. Despite having the pre-prepared links, only 5 people
+The Etherpad didn't work very well. Despite having the pre-prepared links, only 5 people
 out of the 12 bothered to open it and look at it.
 
 There were a mix of skills in the cloud camp. Some were left behind, given the feedback.
+But this wasn't apparent to the instructors.
+
 The advanced users coped quite well with the material, and didn't seemed bored.
 
-We did no preperation other than you need to bring a laptop: and everyone was able to log
+We did no preparation other than you need to bring a laptop: and everyone was able to log
 in to the cloud: and install and use putty. It did chew up some time, though, which was
 problematic. It was also good having a project to add users with expired personal tenancies
 two: of the twelve, two needed adding for this reason.
