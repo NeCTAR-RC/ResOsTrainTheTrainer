@@ -964,15 +964,19 @@ Do you have:
   and does indeed work for you...)
 * Enough sticky notes, in two different colours, to hand out to attendees at the start
   and after each break
-* A set of answer cards, lettered 'A', 'B', 'C', 'D' and 'E' respectively.
+* A set of answer cards, enough for each learner, lettered 'A', 'B', 'C', 'D' and 'E' respectively.
 * All the required props?
 
 Is the image named `res_os_drupal7` available and public on the NeCTAR cloud?
 If so, check that it works as expected. Make a snapshot so that you hava a fall back image.
+Have you checked the slides are all as you expect?
 
 If it's not there, or doesn't work as expected, make a new image to use.
 
+# Afterwards...
 
+* Collate the feedback. Is any of it actionable?
+* Remove users from a shared tenancy (if you had to add any)
 
 # A discussion on delivering the course material
 
