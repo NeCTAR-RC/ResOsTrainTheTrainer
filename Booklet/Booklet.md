@@ -2,6 +2,8 @@
 
 * [Introduction](#introduction)
 * [Software Carpentry: an overview](#software-carpentry-an-overview)
+* [Myths and truths about learning and education](#myths-and-truths-about-learning-and-education)
+* [How learning works](#how-learning-works)
 
 # Introduction
 
@@ -23,7 +25,7 @@ ResBaz (the [Research Bazaar](http://melbourne.resbaz.edu.au/)) is a campaign, a
 
 A campaign: to provide free peer to peer training on digital skills to researchers.
 A community: to provide support to researchers through collaboration.
-A conference: an annual 3 day multi city event to kick start the campaign and the community.
+A conference: an annual 3 day multi city event to kick start the campaign and the community every year.
 
 -- *Slide* --
 
@@ -123,9 +125,9 @@ From the delivery of this course they learnt that:
 ## Lesson 1
 
 * Week long courses frazzle the attendees brains
-* Textbook SLDC<sup>1</sup> is not useful to researchers
+* Textbook SLDC<sup><small>1</small></sup> is not useful to researchers
 
-1: [Software Development Life Cycle](http://www.tutorialspoint.com/sdlc/sdlc_overview.htm)
+<small>1: [Software Development Life Cycle](http://www.tutorialspoint.com/sdlc/sdlc_overview.htm)</small>
 
 -- *Slide End* --
 
@@ -139,7 +141,7 @@ During this period it was realized that:
 
 ## Lesson 2
 
-* Most computer scientists don't have an interest in solving this problem
+* Most computer scientists don't have an interest in training researchers
 * The target market is new postgraduates
 
 -- *Slide End* --
@@ -148,12 +150,12 @@ MOOC style courses were also attempted. From this came the realization:
 
 -- *Slide* --
 
-## Lesson 3: The MOOC<sup>1</sup>
+## Lesson 3: The MOOC<sup><small>1</small></sup>
 
 * Video's are a huge amount of effort
 * Most people don't complete the courses
 
-1: Massive Open Online Courses
+<small>1: Massive Open Online Courses</small>
 
 -- *Slide End* --
 
@@ -211,7 +213,7 @@ The workshops aim to have:
 ## Staffing
 
 * An instructor up front
-* At least 1 helper per 8 attendees
+* At least 1 roaming helper per 8 attendees
 
 -- *Slide End* --
 
@@ -227,6 +229,8 @@ Group sign up leads to better workshops and better attendance by under represent
 * Post workshop assesments
 
 -- *Slide End* --
+
+Extensive use is made of feedback loops. So:
 
 Sticky notes are handed out to learners:
 
@@ -260,7 +264,7 @@ Instructors are also requested to provide feedback in debriefing sessions.
 
 ## To which we've added
 
-* Multi choice questions
+* Multiple choice questions
 
 -- *Slide End* --
 
@@ -292,7 +296,7 @@ Software carpentry has been under continuous iterative development for many year
 way the material has been reworked to take into account the latest in educational research and
 feedback from the actual delivery.
 
-BTW, Software Carpentry material is licenced under a creative commons logo. Anyone is free to use it.
+BTW, Software Carpentry material is licenced under a creative commons licence. Anyone is free to use it.
 
 **NB** But you are not free to use their name and logo! There are strict conditions applied to this. They
 want to maintain their good name and reputation!
@@ -426,9 +430,13 @@ Software Carpentry attempts to build on the findings of current research.
 
 So:
 
+-- *Slide* --
+
 ## Analogies
 
 Students learn new ideas by building on what they know.
+
+-- *Slide End* --
 
 This can be both a help and a hindrance.
 
@@ -440,9 +448,13 @@ So our material must:
 * Use analogies that students are likely to understand
 * Introduce concepts in sequence, building on what has gone before
 
+-- *Slide* --
+
 ## Memory
 
 From Working -> Long Term
+
+-- *Slide End* --
 
 Working memory has very limited capacity.
 
@@ -453,9 +465,14 @@ So our material:
 * Should use multiple modalities (but don't split students attention)
 * Must be well paced.
 
+
+-- *Slide* --
+
 ## Where did I put my keys?
 
 What goes into memory often vanishes almost straight away
+
+-- *Slide End* --
 
 We can address this by
 
@@ -463,13 +480,19 @@ We can address this by
 * Telling stories
 * Introducing mnemonics
 
+-- *Slide* --
+
 ## Practice is good
 
 But not all practice is equivalent.
 
+-- *Slide End* --
+
 * Spaced practice is good
 * Quizzes help
 * Interleaving practice is more effective
+
+-- *Slide* --
 
 ## Feedback is needed
 
@@ -479,6 +502,8 @@ And it should be:
 * Clear
 * Focused on the task
 * Explanatory
+
+-- *Slide End* --
 
 ## Why are we telling you all of this?
 
@@ -592,7 +617,7 @@ The following may help:
 
 HTML is simply text with tags in it.
 
-**Draw:**
+**Demo:**
 
     <h1>A Heading</h1>
     <p>Paragraph text
@@ -608,9 +633,10 @@ And feed it into an engine, and out comes beautifully formed HTML.
 
 -- *Slide* --
 
-## Open the following site:
+## Open the following sites in tabs:
 
-http://markdown-here.com/livedemo.html
+* [http://tinyurl.com/ResOsLd](http://markdown-here.com/livedemo.html)
+* [http://tinyurl.com/ResOsMd](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 * <span style="color:green">&#9632;</span> = I'm ready to proceed.
 * <span style="color:red">&#9632;</span> = What: there is no such site!
@@ -619,7 +645,7 @@ http://markdown-here.com/livedemo.html
 
 Pair up!
 
-And see if you can produce the following well turned out html
+And see if you can produce the following well turned out html in the live demo site...
 
 -- *Slide* --
 
@@ -646,6 +672,69 @@ And a red card if you want help...
 **Demonstrate** Show that you can type raw html into the markdown by adding
 
     <a href="http://www.nectar.org.au">Nectar</a>
+
+## Tiny URL
+
+There are URL's in our material. We do put them into the course Etherpads, but find that our learners don't
+engage with the Etherpads. They kind of recoil in horror.
+
+To work around this, and make it simple for learners to enter a url from the slide
+we decided to use a URL shortner.
+
+There are a lot of [url shortners out there](http://bit.do/list-of-url-shorteners.php).
+
+We settled on [TinyURL.com](http://tinyurl.com)
+
+For one simple reason: it was the first we found in which we could set the URL to be generated.
+
+I believe, with no research behind me, that well selected human readable strings are easier to work with
+than randomly generated characters.
+
+-- *Slide* --
+
+## Our url format
+
+\[TinyURL\]\(The original url being shortened\)
+
+-- *Slide End* --
+
+We try to keep to this format for URL's in the material.
+
+-- *Slide* --
+
+## Why do use this format?
+
+\[TinyURL\]\(The original url being shortened\)
+
+1. Markdown mandates this format for url's
+1. Developers like clarity
+1. TinyURL might vanish!
+
+-- *Slide End* --
+
+**Answer: C**  Although it's been around for quite a while, we aren't sure that TinyURl will continue to be around.
+
+
+-- *Slide* --
+
+## Can you
+
+Find a long link, and shorten it with http://tinyurl.com ?
+
+Once done, enter it into the live demo site
+
+* [http://tinyurl.com/ResOsLd](http://markdown-here.com/livedemo.html)
+
+In our preferred format:
+
+* \[TinyURL\]\(The original url being shortened\)
+
+Then get your neighbour to check it for correctness.
+
+* <span style="color:green">&#9632;</span> = Done...
+* <span style="color:red">&#9632;</span> = Please help us!
+
+-- *Slide End* --
 
 And that's about the level of markdown you need to know to work on and understand the training material.
 
@@ -683,7 +772,10 @@ Git:
 
 -- *Slide End* --
 
+Discuss each of these options further before asking for the answer.
+
 **Answer** I believe them all to be true...
+
 Any wrong answers here should require further discussion...
 
 Not only is the course material kept under version control: that version control is accessible via an online
@@ -734,9 +826,11 @@ Well, to quote someone
 
 -- *Slide* --
 
-"I have a plan so cunning you could put a tail on it and call it a weasel"
+"I've got a plan so cunning, you could put a tail on it and call it a weasel<sup><small>1</small></sup>"
 
 AKA: [REVEAL.JS](http://lab.hakim.se/reveal-js/#/)
+
+<small>1: [Blackadder](https://en.wikiquote.org/wiki/Blackadder)</small>
 
 -- *Slide End* --
 
@@ -748,13 +842,13 @@ We have written a tool that that chunders through our lecture notes...
 
 `-- *Slide* --`
 
-And any text between lines that have only the above marker
+In the lessons any text between lines that have only the above marker
 
 And finish with only the below marker
 
 `-- *Slide End* --`
 
-Is extracted into a lesson slide.
+Will extracted into a lesson slide.
 
 -- *Slide End* --
 
@@ -780,7 +874,7 @@ Now there's no need for you to generate the slides: we've checked the generated 
 
 * Clone the repository
 * Update the repository submodules
-* Choose the tag you want to use
+* Checkout the tag you want to deliver
 * Optional: Update the introductory slide with your name
 * Optional: Regenerate the slides
 * Open the lesson slides in your browser!
@@ -848,7 +942,7 @@ You might have to explain the above command on a board...
 
 -- *Slide* --
 
-## Can you see if there are any commits since the last tag?
+## Are there are any commits since the last tag?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -993,19 +1087,6 @@ For more on this:
 -- *Slide End* --
 
 We haven't trialed summary feedback yet :(
-
-
-# Tiny URL
-
-There are URL's in our material. We do put them into the course Etherpad, but find that our learners don't
-engage with the Etherpad. To work around this, and make it simple for learners to enter a url from the slide
-we decided to use a URL shortner.
-
-There are a lot of [url shortners out there](http://bit.do/list-of-url-shorteners.php).
-
-We wanted something that users could read and type in, so we settled on [TinyURL.com](http://tinyurl.com)
-
-
 
 
 # Preparation
