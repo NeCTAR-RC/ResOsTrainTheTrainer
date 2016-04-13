@@ -103,3 +103,6 @@ two: of the twelve, two needed adding for this reason.
 
 We should take the keypair detail out of Lesson 1 and put it into Lesson 2. This
 would speed Lesson 1 up and get fingers typing faster...
+
+We also need to look at the workding of the event invite, and see why people were confused about the times.
+And further, perhaps actually send out a reminder email listing the topics to be covered on the day.
