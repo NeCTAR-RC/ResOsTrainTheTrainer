@@ -43,3 +43,7 @@ Writing to: ./Presentation/index.html
 ```
 
 Remember to always walk through your slides when you regenerate them!
+
+# To Do
+
+[ ] Add checklist for creating material: or remove reference to it.
