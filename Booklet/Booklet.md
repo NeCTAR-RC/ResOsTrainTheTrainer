@@ -2,14 +2,17 @@
 
 * [Introduction](#introduction)
 * [Software Carpentry: an overview](#software-carpentry-an-overview)
-* [Myths and truths about learning and education](#myths-and-truths-about-learning-and-education)
+* [The format of the course material](#the-format-of-the-course-material)
+* [How to access the course material](#how-to-access-the-course-material)
+* [Git](#git)
 * [How learning works](#how-learning-works)
+
 
 # Introduction
 
 -- *Slide* --
 
-## Your guides today:
+### Your guides today:
 
 * Martin Paulo (martin.paulo@unimelb.edu.au)
 * Jared Winton (jwinton@unimelb.edu.au)
@@ -18,7 +21,7 @@
 
 -- *Slide* --
 
-## In the beginning was ResBaz
+### In the beginning was ResBaz
 
 ResBaz (the [Research Bazaar](http://melbourne.resbaz.edu.au/)) is a campaign, a community and conference.
 
@@ -30,7 +33,7 @@ A conference: an annual 3 day multi city event to kick start the campaign and th
 
 -- *Slide* --
 
-## We noticed
+### We noticed
 
 That an increasing number of researchers were turning to the cloud
 
@@ -38,7 +41,7 @@ That an increasing number of researchers were turning to the cloud
 
 -- *Slide* --
 
-## We realized
+### We realized
 
 There was a training gap
 
@@ -46,7 +49,7 @@ There was a training gap
 
 -- *Slide* --
 
-## Hence
+### Hence
 
 We developed a course
 
@@ -66,7 +69,7 @@ A handle we have used to abstract away the mechanics of the cloud from researche
 
 -- *Slide* --
 
-## ResOS: what is it?
+### ResOS: what is it?
 
 1. Researcher Open Source
 1. Researcher Onion Storage
@@ -91,9 +94,12 @@ We've piloted all the material by giving lessons to small numbers of researchers
 We are now using it in training at the University of Melbourne. And we will be changing it and
 incorporating what we learn from delivering it as we go forward.
 
+
+# Software Carpentry
+
 -- *Slide* --
 
-# Software Carpentry: an overview
+### Software Carpentry: an overview
 
 **NB** ResOS training is *not* a Software Carpentry course.
 
@@ -114,7 +120,7 @@ From the delivery of this course they learnt that:
 
 -- *Slide* --
 
-## Lesson 1
+### Lesson 1
 
 * Week long courses frazzle the attendees brains
 * Textbook SLDC<sup><small>1</small></sup> is not useful to researchers
@@ -131,7 +137,7 @@ During this period it was realized that:
 
 -- *Slide* --
 
-## Lesson 2
+### Lesson 2
 
 * Most computer scientists don't have an interest in training researchers
 * The target market is new postgraduates
@@ -142,7 +148,7 @@ MOOC style courses were also attempted. From this came the realization:
 
 -- *Slide* --
 
-## Lesson 3: The MOOC<sup><small>1</small></sup>
+### Lesson 3: The MOOC<sup><small>1</small></sup>
 
 * Video's are a huge amount of effort
 * Most people don't complete the courses
@@ -153,7 +159,7 @@ MOOC style courses were also attempted. From this came the realization:
 
 -- *Slide* --
 
-## Who's done a MOOC?
+### Who's done a MOOC?
 
 * <span style="color:green">&#9632;</span> = Yes!
 * <span style="color:red">&#9632;</span> = No: why would I?
@@ -162,7 +168,7 @@ MOOC style courses were also attempted. From this came the realization:
 
 -- *Slide* --
 
-## Who's finished all the MOOC's they have started?
+### Who's finished all the MOOC's they have started?
 
 * <span style="color:green">&#9632;</span> = Yes!
 * <span style="color:red">&#9632;</span> = Life. Just keeps on interfering :(
@@ -173,7 +179,7 @@ After years of effort, review, and development, Software Carpentry now has the f
 
 -- *Slide* --
 
-## Format
+### Format
 
 * A two day workshop
 * Covering a small set of tools
@@ -186,7 +192,7 @@ The following guidelines are in place
 
 -- *Slide* --
 
-## Guidelines
+### Guidelines
 
 * No more than 40 people in a workshop
 * If possible, parallel sessions, with attendees streamed by ability
@@ -202,7 +208,7 @@ The workshops aim to have:
 
 -- *Slide* --
 
-## Staffing
+### Staffing
 
 * An instructor up front
 * At least 1 roaming helper per 8 attendees
@@ -213,7 +219,7 @@ Group sign up leads to better workshops and better attendance by under represent
 
 -- *Slide* --
 
-## Feedback loops
+### Feedback loops
 
 * Sticky notes
 * Minute cards
@@ -254,7 +260,7 @@ Instructors are also requested to provide feedback in debriefing sessions.
 
 -- *Slide* --
 
-## To which we've added
+### To which we've added
 
 * Multiple choice questions
 
@@ -262,7 +268,7 @@ Instructors are also requested to provide feedback in debriefing sessions.
 
 -- *Slide* --
 
-## Delivery
+### Delivery
 
 * Live coding
 * Two devices for the instructor
@@ -274,7 +280,7 @@ Instructors are also requested to provide feedback in debriefing sessions.
 
 -- *Slide* --
 
-## Biggest challenges
+### Biggest challenges
 
 * Are they truly helping researchers?
 * Diversity of learners - 20% bored, 20% lost :(
@@ -297,7 +303,7 @@ We feel that if you haven't done it yet, that you should sign up for their train
 
 -- *Slide* --
 
-## Subscribe!
+### Subscribe!
 
 If you are going to be doing a lot of SW Carpentry style training consider subscribing...
 
@@ -309,7 +315,7 @@ I'm going to intersperse today with some fun things we've learnt from the mailin
 
 -- *Slide* --
 
-## True or False: People have different learning styles
+### True or False: People have different learning styles
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
@@ -329,7 +335,7 @@ We have elected to write our course material in Markdown.
 
 -- *Slide* --
 
-## Do you know what markdown is?
+### Do you know what markdown is?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -358,7 +364,7 @@ And feed it into an engine, and out comes beautifully formed HTML.
 
 -- *Slide* --
 
-## Open the following sites in tabs:
+### Open the following sites in tabs:
 
 * [http://tinyurl.com/ResOsLd](http://markdown-here.com/livedemo.html)
 * [http://tinyurl.com/ResOsMd](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
@@ -417,7 +423,7 @@ than randomly generated characters.
 
 -- *Slide* --
 
-## Our url format
+### Our url format
 
 \[TinyURL\]\(The original url being shortened\)
 
@@ -427,7 +433,7 @@ We try to keep to this format for URL's in the material.
 
 -- *Slide* --
 
-## Why do use this format?
+### Why do use this format?
 
 \[TinyURL\]\(The original url being shortened\)
 
@@ -442,7 +448,7 @@ It also helps us when reading the source material to see where the url is actual
 
 -- *Slide* --
 
-## Can you
+### Can you
 
 Find a long link, and shorten it with http://tinyurl.com ?
 
@@ -465,7 +471,7 @@ And that's about the level of markdown you need to know to work on and understan
 
 -- *Slide* --
 
-## True or False: Physical activity helps learning
+### True or False: Physical activity helps learning
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
@@ -479,7 +485,7 @@ And that's about the level of markdown you need to know to work on and understan
 
 -- *Slide* --
 
-## The repository can be found at:
+### The material can be found at:
 
 * https://github.com/resbaz/nectar-cloud-lessons
 
@@ -503,7 +509,7 @@ lessons.
 
 -- *Slide* --
 
-## Do you think we have kept the lesson plans up to date?
+### Do you think we have kept the lesson plans up to date?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -517,7 +523,7 @@ the lesson is attempting to convey is key.
 
 -- *Slide* --
 
-## Can you find and open the lesson plans?
+### Can you find and open the lesson plans?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -534,7 +540,7 @@ for the class to follow suite...
 
 -- *Slide* --
 
-## What's an ephemeral disk?
+### What's an ephemeral disk?
 
 1. A quantum disk
 1. A disk that moves from VM to VM
@@ -548,13 +554,13 @@ for the class to follow suite...
 
 -- *Slide* --
 
-## What's a NeCTAR image?
+### What's a NeCTAR image?
 
 1. A picture at an exhibition
 1. A representation of NeCTAR
 1. The general impression that NeCTAR presents to the world
 1. A file that contains the contents of a hard drive
-1. A piece in the NeCTAR art collection
+1. A fine piece in the NeCTAR art collection
 
 -- *Slide End* --
 
@@ -562,7 +568,7 @@ for the class to follow suite...
 
 -- *Slide* --
 
-## No one really does anything in this lesson!
+### No one really does anything in this lesson!
 
 Is that a problem?
 
@@ -582,7 +588,7 @@ We scaffold this by giving them checklists to follow.
 
 -- *Slide* --
 
-## Our keypair analogy
+### Our keypair analogy
 
 Is it a problem?
 
@@ -593,7 +599,7 @@ Is it a problem?
 
 -- *Slide* --
 
-## Is this better?
+### Is this better?
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/YEBfamv-_do?start=138" frameborder="0" allowfullscreen></iframe>
 
@@ -610,7 +616,7 @@ We introduce the command line, ssh, sudo, package management and show security g
 
 -- *Slide* --
 
-## Our biggest problem...
+### Our biggest problem...
 
 The amazing teleporting terminal!
 
@@ -620,7 +626,7 @@ Hence our increasingly laboured explanations around terminals...
 
 -- *Slide* --
 
-## Our ssh analogy
+### Our ssh analogy
 
 Is it a problem? (note that the video allows us to remove this analogy)
 
@@ -633,7 +639,7 @@ Can anyone think of a better one?
 
 -- *Slide* --
 
-## Our man in the middle analogy
+### Our man in the middle analogy
 
 Is it a problem?
 
@@ -645,14 +651,13 @@ Is it a problem?
 We are finding it more fun to do a play with one of the helpers playing out the roll of the man in the middle:
 and no envelopes!
 
-
 ## Lesson 4
 
 We get our learners to use scp and cyberduck to move data to and from their remote machines.
 
 -- *Slide* --
 
-## Moving data: our top researcher request!
+### Moving data: our top researcher request!
 
 Hence it's worth spending time on...
 
@@ -664,7 +669,7 @@ We launch and run graphical applications via xwindows over ssh.
 
 -- *Slide* --
 
-## Graphical applications: our top promoter request!
+### Graphical applications: our top promoter request!
 
 Of interest...
 
@@ -672,7 +677,7 @@ Of interest...
 
 -- *Slide* --
 
-## X-Windows
+### X-Windows
 
 Where's the server?
 
@@ -691,7 +696,7 @@ We dive deeper into snapshots and scaling.
 
 -- *Slide* --
 
-## Why are NeCTAR snapshots are broken?
+### Why are NeCTAR snapshots are broken?
 
 1. They are just too easy to do: suspicious enough!
 1. The magic nostrums aren't up to the task!
@@ -709,7 +714,7 @@ We teach a work around that gives faultless snapshots.
 
 -- *Slide* --
 
-## Anyone care to guess our technique?
+### Anyone care to guess our technique?
 
 -- *Slide End* --
 
@@ -717,7 +722,7 @@ We teach a work around that gives faultless snapshots.
 
 -- *Slide* --
 
-## Do you know the differences between:
+### Do you know the differences between:
 
 1. A soft reboot of a VM
 1. A terminated VM
@@ -742,7 +747,7 @@ And also do some vertical scaling and public sharing of snapshots.
 
 -- *Slide* --
 
-## Vertical scaling: an often featured support request.
+### Vertical scaling: an often featured support request.
 
 Strangely, people want to keep their IP numbers...
 
@@ -754,10 +759,9 @@ We dive into the Object Store
 
 It's a very simple lesson.
 
-
 -- *Slide* --
 
-## True or False: Knowledge is as perishable as a fresh fish!
+### True or False: Knowledge is as perishable as a fresh fish!
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
@@ -778,7 +782,7 @@ This the messiest and least explored lesson, as you'll be able to tell by the le
 
 -- *Slide* --
 
-## True or False: Discovery trumps explanation
+### True or False: Discovery trumps explanation
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
@@ -789,13 +793,14 @@ This the messiest and least explored lesson, as you'll be able to tell by the le
 in this room? Research has shown that pure discovery learning doesn't work: but guided investigative learning can be
 very effective in certain settings.
 
-## Git
+
+# Git
 
 As you can see the course material is kept under version control.
 
 -- *Slide* --
 
-## Do you know what git is?
+### Do you know what git is?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -813,7 +818,7 @@ The following may help you:
 
 -- *Slide* --
 
-## Which of these is false:
+### Which of these is false:
 
 Git:
 
@@ -842,7 +847,7 @@ Not only is the course material kept under version control: that version control
 repository, so you can revisit it at any time, use it as a stand alone course if you want to, and even, hopefully,
 contributes changes and extensions back!
 
-To check it out we do the following:
+To check the course out onto our local machine we do the following:
 
 ```bash
 git clone https://github.com/resbaz/nectar-cloud-lessons.git
@@ -898,7 +903,7 @@ We have written a tool that that chunders through our lecture notes...
 
 -- *Slide* --
 
-# SlideExtractor.jar
+### SlideExtractor.jar
 
 `-- *Slide* --`
 
@@ -930,7 +935,7 @@ Now there's no need for you to generate the slides: we've checked the generated 
 
 -- *Slide* --
 
-## To give the lessons (basic)
+## #To give the lessons (basic)
 
 * Clone the repository
 * Update the repository submodules
@@ -946,7 +951,7 @@ markdown.
 
 -- *Slide* --
 
-## Can you open, say Lesson_II.html in your browser?
+### Can you open, say Lesson_II.html in your browser?
 
 And step through some of the slides?
 
@@ -966,7 +971,7 @@ This means that you should always be able to go back to a particular version in 
 
 -- *Slide* --
 
-## What's the current version number?
+### What's the current version number?
 
 1. 1.0.0
 1. 1.0.1
@@ -984,7 +989,7 @@ git tag
 
 -- *Slide* --
 
-## Can you list the tags?
+### Can you list the tags?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -1001,7 +1006,7 @@ You might have to explain the above command on a board...
 
 -- *Slide* --
 
-## Are there are any commits since the last tag?
+### Are there are any commits since the last tag?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -1016,7 +1021,7 @@ deliver you can checkout that particular tag and use it.
 
 -- *Slide* --
 
-## How to checkout a specific tag as a local branch:
+### How to checkout a specific tag as a local branch:
 
 ```bash
 $ git checkout tags/<tag_name> -b <tag_name>
@@ -1031,7 +1036,7 @@ $ git checkout tags/<tag_name> -b <tag_name>
 
 -- *Slide* --
 
-## True or False: Google makes learning obsolete!
+### True or False: Google makes learning obsolete!
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
@@ -1151,7 +1156,7 @@ By raising issues!
 
 -- *Slide* --
 
-# Do you know how to raise an issue on GitHub?
+### Do you know how to raise an issue on GitHub?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
@@ -1166,7 +1171,7 @@ If you can't find it, hold up a Red sticky note, otherwise, a Green one to let m
 
 -- *Slide* --
 
-## True or False: Memory records exactly what we experience...
+### True or False: Memory records exactly what we experience...
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
@@ -1178,25 +1183,12 @@ possible to plant false remembered experiences through clever questions.
 
 -- *Slide* --
 
-## BTW - who has seen this:
+### BTW - who has seen this:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/vJG698U2Mvo" frameborder="0" allowfullscreen></iframe>
 
 -- *Slide End* --
 
--- *Slide* --
-
-## True or False: We only use 10% of our brain...
-
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
-
--- *Slide End* --
-
-**A** False: If true, we should be able to survive the loss of 90% of our brain quite happily...
-
-Also, modern scanning techniques have shown that this is false. Simple activities, such as walking into a room
-full of people, or playing a musical instrument, cause all of your brain to light up!
 
 # Course feedback
 
@@ -1216,7 +1208,7 @@ To recap: at the end of a session, learners write one thing
 
 -- *Slide* --
 
-## Sample feedback from a course
+### Sample feedback from a course
 
 ### Voyeurs!
 
@@ -1270,7 +1262,7 @@ The form asks for one question on a numeric scale to be answered. Those who answ
 
 -- *Slide* --
 
-## Net Promoter Score
+### Net Promoter Score
 
 For more on this:
 
@@ -1279,6 +1271,20 @@ For more on this:
 -- *Slide End* --
 
 We haven't trialed summary feedback yet :(
+
+-- *Slide* --
+
+### True or False: We only use 10% of our brain...
+
+* <span style="color:green">&#9632;</span> = True.
+* <span style="color:red">&#9632;</span> = False.
+
+-- *Slide End* --
+
+**A** False: If true, we should be able to survive the loss of 90% of our brain quite happily...
+
+Also, modern scanning techniques have shown that this is false. Simple activities, such as walking into a room
+full of people, or playing a musical instrument, cause all of your brain to light up!
 
 
 # Preparation
@@ -1344,13 +1350,10 @@ Have you checked the slides are all as you expect?
 
 If it's not there, or doesn't work as expected, make a new image to use.
 
-# Afterwards...
+## Afterwards...
 
 * Collate the feedback. Is any of it actionable?
 * Remove users from a shared tenancy (if you had to add any)
-
-# A discussion on delivering the course material
-
 
 # How to contribute changes back to the course
 
