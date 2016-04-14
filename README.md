@@ -42,8 +42,16 @@ Writing to: ./Presentation/index.html
 
 ```
 
+# Prerequisites
+
+1. [ ] A [GitHub account](https://github.com/join).
+1. [ ] Git locally installed.
+
 Remember to always walk through your slides when you regenerate them!
 
 # To Do
 
-[ ] Add checklist for creating material: or remove reference to it.
+1. [ ] Add checklist for creating material: or remove reference to it.
+1. [ ] Add sample etherpad? https://public.etherpad-mozilla.org/p/NeCTAR_Cloud_1.0.1
+1. [ ] As in Software Carpentry, should trainers who submit a GitHub correction get a certificate?
+1. [ ] What about a code of conduct: http://software-carpentry.org/conduct/
