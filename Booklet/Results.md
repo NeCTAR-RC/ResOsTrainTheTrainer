@@ -106,3 +106,6 @@ would speed Lesson 1 up and get fingers typing faster...
 
 We also need to look at the workding of the event invite, and see why people were confused about the times.
 And further, perhaps actually send out a reminder email listing the topics to be covered on the day.
+
+We have hand waved over the fact that new user logging into the dashboard for the first time will be asked to
+choose an institution, and also that they will be shown the terms dialogue.
