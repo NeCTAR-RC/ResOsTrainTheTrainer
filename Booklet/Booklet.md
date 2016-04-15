@@ -546,7 +546,7 @@ the lesson is attempting to convey is key.
 
 -- *Slide End* --
 
-Follow along as we discuss the lessons.
+Follow along in the lesson plan as we discuss the lessons.
 
 ## Lesson 1
 
@@ -689,6 +689,10 @@ Is it a problem?
 We are finding it more fun to do a play with one of the helpers playing out the roll of the man in the middle:
 and no envelopes!
 
+Also, we put this in because when we first started delivering this course the NeCTAR scheduler was aggressively
+reusing IP numbers and users would run into this issue often. Now that Neutron is in the mix this no longer the case.
+Perhaps we could dress down the warning?
+
 ## Lesson 4
 
 We get our learners to use scp and cyberduck to move data to and from their remote machines.
@@ -717,7 +721,7 @@ Of interest...
 
 ### X-Windows
 
-Where's the server?
+Where's the x-server?
 
 1. On the users workstation
 1. On the remote VM
@@ -803,6 +807,15 @@ We introduce containers, objects, and get them upload, download and make public 
 
 We also, if time permits, get them to work through connecting cyberduck to the object store using intersects training
 material. Which needs fixing...
+
+-- *Slide* --
+
+### Object Store
+
+Is it really this simple?
+
+-- *Slide End* --
+
 
 -- *Slide* --
 
@@ -1111,32 +1124,6 @@ We need context and a mental structure to make sense of the facts we find on the
 we get from learning... In fact, given the amount of information available on the Internet we might need more
 learning to make sense of it all!
 
-
-
-
-> "We are ... looking to find (and train) what we are calling a "power (researcher) users".
-
-> Our investigation into these types of users produce the following kind of persona traits (which is whom we are aiming
-> this "ResOS Train the Trainer curriculum").  "Power (Researcher) Users" are the types of researchers who see
-> themselves as:
->
->* technically savvy (the person in the lab who everyone goes to for help);
->* they feel they are researcher first and foremost, e.g. they usually introduce themselves as "researchers" but are
->  very happy for their research colleagues to identify them as "technical".
->* sometimes these users are hired for their technical skills and identified as the research groups developer, but they
->  do have discipline expertise.
->* often they are a postgraduate or early career researcher; far too often they are male.
->* types of people who immediately un-installed the operating systems which the University provided them on their
->  laptop and replaced it with an OS which allowed them to have access to the "Utilities", "Settings" and
->  "Advanced Settings" of their Operating System.
->* they've even played around with installing Linux Ubuntu and other "command line" tasks.
->* while they understand the basics of installing an OS, it is only a means to an end so they can access more of the
->  research tools which get them and their colleagues results.
->* for them the cloud is just someone else's computer and they are only just willing to trust a computer the University
->  runs so long as no restrictions are made on them about how they use it (they are glad to go back to doing it
->  themselves if there are any barriers or bureaucracy put up by the University).
-
-
 # Personas: an introduction
 
 Now, break up into groups of 3-4 people.
@@ -1152,7 +1139,7 @@ abilities of the larger group.
 
 A good persona should represent a skill set and a behaviour pattern - not a job description.
 
-By example, here's a persona that I developed:
+By example, here's a persona that we developed:
 
 -- *Slide* --
 **Name:**  Associate Professor Glenn Bording
@@ -1167,6 +1154,7 @@ By example, here's a persona that I developed:
 * Prefers to work with physical hardware
 
 -- *Slide End* --
+
 -- *Slide* --
 
 **Background:**
@@ -1195,21 +1183,24 @@ Ok: for our purposes today, the persona's that you have developed represent the 
 our ResOS training course to.
 
 So as we go through the rest of today I want each group to ask themselves just what it would take to communicate
-the concepts or  activities we are covering to this persona.
+the concepts or activities we are covering to this persona.
 
-If you find you can't do it, then stop me, and we will all discuss it and see if we can come up with a better approach.
+If you find you can't do it, then make a note, and we will all discuss it after the next section
+and see if we can come up with a better approach.
 
 **Ask for one or two persona's to be read out**
 
 
-# A walk through the course material
+# Breakout time...
 
+So as you have seen, its a fairly formal course intended to be delivered by a person standing in front of a class.
 
-So as you have learnt, its a fairly formal course intended to be delivered by a person standing in front of a class.
+And we've done a fairly high level walk through of the lesson plans.
 
-But because this is a "Train the trainers" event, I am not going to give you this course.
+We are now going to split up into groups: each group will choose a lesson to cover. Then the group will work through
+the lesson plan and associated lesson. We'll take, say, 45 minutes to do this.
 
-Instead, we are going to do a higher level walk through.
+Then we will meet up again and try presenting our material for a short period.
 
 As we work through this, I want you all to note any errors or changes that need to be done to the course material.
 
@@ -1225,10 +1216,6 @@ By raising issues!
 -- *Slide End* --
 
 If there are any No's: well, they need to be shown!
-
-So, without further ado, on to the first lesson. Find it in your browsers!
-
-If you can't find it, hold up a Red sticky note, otherwise, a Green one to let me know you're ready to continue.
 
 -- *Slide* --
 
@@ -1250,6 +1237,7 @@ possible to plant false remembered experiences through clever questions.
 
 -- *Slide End* --
 
+Once you've worked through your chosen lesson and think you are ready to present hold up a Green sticky note!
 
 # Course feedback
 
@@ -1331,7 +1319,16 @@ For more on this:
 
 -- *Slide End* --
 
+In line with Software Carpentry we get very poor returns: at the moment we are at about 30%. But on the upside
+we've had no response below 7, and the comments have all been most usefull.
+
+-- *Slide* --
+
+### Summary feedback
+
 We haven't trialed summary feedback yet :(
+
+-- *Slide End* --
 
 -- *Slide* --
 
@@ -1404,6 +1401,8 @@ Do you have:
 * A set of three envelopes, at least one of which fits inside the other two, to describe ssh and man in the middle
   attacks.
 * Any other required props?
+* A set of spare pens for people to write on the sticky notes with (It would appear in this digital age a
+  lot of people travel penless)?
 
 Is the image named `res_os_drupal7` available and public on the NeCTAR cloud?
 If so, check that it works as expected. Make a snapshot so that you hava a fall back image.
