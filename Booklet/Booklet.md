@@ -27,9 +27,9 @@ ResBaz (the [Research Bazaar](http://melbourne.resbaz.edu.au/)) is a campaign, a
 
 -- *Slide End* --
 
-A campaign: to provide free peer to peer training on digital skills to researchers.
-A community: to provide support to researchers through collaboration.
-A conference: an annual 3 day multi city event to kick start the campaign and the community every year.
+* A campaign: to provide free peer to peer training on digital skills to researchers.
+* A community: to provide support to researchers through collaboration.
+* A conference: an annual 3 day multi city event to kick start the campaign and the community every year.
 
 -- *Slide* --
 
@@ -83,8 +83,8 @@ A handle we have used to abstract away the mechanics of the cloud from researche
 So I'm putting it here just in case you talk to someone who uses it. Now you don't have to interrupt them to
 find out what on earth they are talking about!
 
-Subsequent to that initial ResBaz event we were commissioned to expand and enhance that material into a full day
-hands on course.
+Subsequent to that initial ResBaz event we were commissioned by NeCTAR to expand and enhance that material into a
+full day hands on course.
 
 So some of our foundations precede the online NeCTAR training material created by Intersect. We had to aligned
 the two by changing our material. Which we were only able to do after Intersect published their training.
@@ -260,11 +260,16 @@ Instructors are also requested to provide feedback in debriefing sessions.
 
 -- *Slide* --
 
-### To which we've added
+### We really like
 
 * Multiple choice questions
 
 -- *Slide End* --
+
+We find that not only do they help us with seeing if the students understand the material, they also act as
+punctuation marks in the lessons that engage the students.
+
+We have found it really hard to design good questions, though...
 
 -- *Slide* --
 
@@ -278,9 +283,12 @@ Instructors are also requested to provide feedback in debriefing sessions.
 
 -- *Slide End* --
 
+We find it really good if the instructor leaves the podium and wanders around during the exercises. This stops the
+students from focusing on the front of the class. There seems to be some kind of weird leadership thing in play?
+
 -- *Slide* --
 
-### Biggest challenges
+### SWC: biggest challenges
 
 * Are they truly helping researchers?
 * Diversity of learners - 20% bored, 20% lost :(
@@ -409,6 +417,14 @@ And a red card if you want help...
 There are URL's in our material. We do put them into the course Etherpads, but find that our learners don't
 engage with the Etherpads. They kind of recoil in horror.
 
+-- *Slide* --
+
+### An etherpad from one of our courses...
+
+https://public.etherpad-mozilla.org/p/NeCTAR_Cloud_1.0.1
+
+-- *Slide End* --
+
 To work around this, and make it simple for learners to enter a url from the slide
 we decided to use a URL shortner.
 
@@ -444,7 +460,7 @@ We try to keep to this format for URL's in the material.
 -- *Slide End* --
 
 **Answer: C**  Although it's been around for quite a while, we aren't sure that TinyURl will continue to be around.
-It also helps us when reading the source material to see where the url is actually pointing.
+It also helps us when reading the source material to see where the shortened url is actually pointing.
 
 -- *Slide* --
 
@@ -586,6 +602,8 @@ We get the students to create their own security group, keypair and then launch 
 
 We scaffold this by giving them checklists to follow.
 
+BTW: this is how we communicate keypairs (give a run through of Pem the greek merchant banker...)
+
 -- *Slide* --
 
 ### Our keypair analogy
@@ -613,6 +631,26 @@ Is it a problem?
 Our most ambitious lesson so far!
 
 We introduce the command line, ssh, sudo, package management and show security groups in action.
+
+-- *Slide* --
+
+### A secret...
+
+Outside of our focus groups, we've never done the command line play and the command line itself.
+
+This is because of where and when these lessons have been given.
+
+-- *Slide End* --
+
+The command line is in here because of our historic baggage. I want to move it out into its own lesson.
+
+-- *Slide* --
+
+### Discuss!
+
+What to do with the command line?
+
+-- *Slide End* --
 
 -- *Slide* --
 
@@ -751,6 +789,8 @@ And also do some vertical scaling and public sharing of snapshots.
 
 Strangely, people want to keep their IP numbers...
 
+### Q: is it worth adding info about this?
+
 -- *Slide End* --
 
 ## Lesson 8
@@ -758,6 +798,11 @@ Strangely, people want to keep their IP numbers...
 We dive into the Object Store
 
 It's a very simple lesson.
+
+We introduce containers, objects, and get them upload, download and make public an image.
+
+We also, if time permits, get them to work through connecting cyberduck to the object store using intersects training
+material. Which needs fixing...
 
 -- *Slide* --
 
@@ -776,9 +821,13 @@ to be incorrect (Carbs are good for you?), but the majority still holds true. Py
 
 ## Lesson 9
 
-We dive into Security
+We dive into Security.
+
+We explain the shared security model, and give some basic tips on staying safe in the cloud.
 
 This the messiest and least explored lesson, as you'll be able to tell by the lesson plan and the lesson.
+
+All suggestions for improvement gladly accepted!
 
 -- *Slide* --
 
@@ -929,13 +978,25 @@ The reason for doing this was because it means that our slides and lecture notes
 Hence as we are working through them we can see what will be coming up next.
 Also, it means that we don't have to maintain separate presentation material. We just have one file.
 
-We've divided it into one file per lesson.
-
-Now there's no need for you to generate the slides: we've checked the generated slides into the repository.
+We/I am toying with the idea of splitting out the questions into a separate file: and of writing an app
+to allow us to get users to actually select these from within a browser window. So that we can gather metrics
+about the responses.
 
 -- *Slide* --
 
-## #To give the lessons (basic)
+### Discuss!
+
+Are clickers a good idea?
+
+-- *Slide End* --
+
+We've divided the material into one file per lesson.
+
+And there's no need for you to generate the slides: we've checked the generated slides into the repository.
+
+-- *Slide* --
+
+### To give the lessons (basic)
 
 * Clone the repository
 * Update the repository submodules
