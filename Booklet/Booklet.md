@@ -1069,7 +1069,14 @@ This means that you should always be able to go back to a particular version in 
 
 -- *Slide End* --
 
-To see a list of tags
+To fetch all the tags from the remote origin:
+
+
+```bash
+git pull --tags
+```
+
+Then to see a list of the tags
 
 ```bash
 git tag
@@ -1084,7 +1091,7 @@ git tag
 
 -- *Slide End* --
 
-To see the commits between the last tag and now
+GitHub shows you, but if you want see the commits between the last tag and now locally
 
 ```bash
 git log --pretty=oneline master...1.0.0
