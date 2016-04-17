@@ -5,7 +5,12 @@
 * [The format of the course material](#the-format-of-the-course-material)
 * [How to access the course material](#how-to-access-the-course-material)
 * [Git](#git)
+* [Practical](#practical)
+* [Improving our teaching](#improving-our-teaching)
+* [Course feedback](#course-feedback)
+* [Preparing to present](#preparing-to-present)
 * [How learning works](#how-learning-works)
+* [How to contribute changes back to the course](#how-to-contribute-changes-back-to-the-course)
 
 
 # Introduction
@@ -199,7 +204,7 @@ The following guidelines are in place
 
 If parallel sessions are run, then:
 
-* A pre-assesment questionnaire is used to create the groups
+* A pre-assessment questionnaire is used to create the groups
 * People are not swapped from group to group
 
 -- *Slide End* --
@@ -224,7 +229,7 @@ Group sign up leads to better workshops and better attendance by under represent
 * Sticky notes
 * Minute cards
 * Summary feedback
-* Post workshop assesments
+* Post workshop assessments
 
 -- *Slide End* --
 
@@ -319,7 +324,7 @@ If you are going to be doing a lot of SW Carpentry style training consider subsc
 
 -- *Slide End* --
 
-I'm going to intersperse today with some fun things we've learnt from the mailing lists. So:
+I'm going to intersperse today with some fun things we've learnt from Software Carpentry. So:
 
 -- *Slide* --
 
@@ -419,7 +424,7 @@ engage with the Etherpads. They kind of recoil in horror.
 
 -- *Slide* --
 
-### An etherpad from one of our courses...
+### An Etherpad from one of our courses...
 
 https://public.etherpad-mozilla.org/p/NeCTAR_Cloud_1.0.1
 
@@ -449,7 +454,7 @@ We try to keep to this format for URL's in the material.
 
 -- *Slide* --
 
-### Why do use this format?
+### Why do we use this format?
 
 \[TinyURL\]\(The original url being shortened\)
 
@@ -514,7 +519,7 @@ Can you open this in your browser?
 
 ## How we developed the course.
 
-* We did a concept map on a board.
+* We did a concept map on paper.
 * Then we created a template for each lesson plan.
 * We used the lesson plan to develop each lesson.
 * We gave trial deliveries of each lesson to guinea pigs.
@@ -602,7 +607,15 @@ We get the students to create their own security group, keypair and then launch 
 
 We scaffold this by giving them checklists to follow.
 
-BTW: this is how we communicate keypairs (give a run through of Pem the greek merchant banker...)
+-- *Slide* --
+
+### Jared's lesson
+
+Don't print out the checklists!
+
+-- *Slide End* --
+
+BTW: this is how we communicate key pairs (give a run through of Pem the greek merchant banker...)
 
 -- *Slide* --
 
@@ -632,17 +645,15 @@ Our most ambitious lesson so far!
 
 We introduce the command line, ssh, sudo, package management and show security groups in action.
 
--- *Slide* --
-
 ### A secret...
+
+The command line is in here because of our historic baggage. 
 
 Outside of our focus groups, we've never done the command line play and the command line itself.
 
 This is because of where and when these lessons have been given.
 
--- *Slide End* --
-
-The command line is in here because of our historic baggage. I want to move it out into its own lesson.
+I want to move it out into its own lesson.
 
 -- *Slide* --
 
@@ -677,7 +688,7 @@ Can anyone think of a better one?
 
 -- *Slide* --
 
-### Our man in the middle analogy
+### Our eve in the middle analogy
 
 Is it a problem?
 
@@ -686,7 +697,7 @@ Is it a problem?
 
 -- *Slide End* --
 
-We are finding it more fun to do a play with one of the helpers playing out the roll of the man in the middle:
+We are finding it more fun to do a play with one of the helpers playing out the roll of the eavesdropper in the middle:
 and no envelopes!
 
 Also, we put this in because when we first started delivering this course the NeCTAR scheduler was aggressively
@@ -695,7 +706,7 @@ Perhaps we could dress down the warning?
 
 ## Lesson 4
 
-We get our learners to use scp and cyberduck to move data to and from their remote machines.
+We get our learners to use scp and CyberDuck to move data to and from their remote machines.
 
 -- *Slide* --
 
@@ -707,7 +718,7 @@ Hence it's worth spending time on...
 
 ## Lesson 5
 
-We launch and run graphical applications via xwindows over ssh.
+We launch and run graphical applications via XWindows over ssh.
 
 -- *Slide* --
 
@@ -721,7 +732,7 @@ Of interest...
 
 ### X-Windows
 
-Where's the x-server?
+Where's the XServer?
 
 1. On the users workstation
 1. On the remote VM
@@ -738,7 +749,7 @@ We dive deeper into snapshots and scaling.
 
 -- *Slide* --
 
-### Why are NeCTAR snapshots are broken?
+### Why are NeCTAR snapshots broken?
 
 1. They are just too easy to do: suspicious enough!
 1. The magic nostrums aren't up to the task!
@@ -793,7 +804,9 @@ And also do some vertical scaling and public sharing of snapshots.
 
 Strangely, people want to keep their IP numbers...
 
-### Q: is it worth adding info about this?
+### Q: is it worth adding info about this to the course?
+
+Or is it too much information too soon?
 
 -- *Slide End* --
 
@@ -805,7 +818,7 @@ It's a very simple lesson.
 
 We introduce containers, objects, and get them upload, download and make public an image.
 
-We also, if time permits, get them to work through connecting cyberduck to the object store using intersects training
+We also, if time permits, get them to work through connecting CyberDuck to the object store using Intersects training
 material. Which needs fixing...
 
 -- *Slide* --
@@ -815,7 +828,6 @@ material. Which needs fixing...
 Is it really this simple?
 
 -- *Slide End* --
-
 
 -- *Slide* --
 
@@ -830,7 +842,7 @@ Is it really this simple?
 with the passage of time?
 
 Or is it simply that the knowledge available is exploding? Sure, some of the knowledge we may hold dear may turn out
-to be incorrect (Carbs are good for you?), but the majority still holds true. Pythagoras still Rulez!
+to be incorrect (Carbohydrates are good for you?), but the majority still holds true. Pythagoras still Rulez!
 
 ## Lesson 9
 
@@ -839,8 +851,6 @@ We dive into Security.
 We explain the shared security model, and give some basic tips on staying safe in the cloud.
 
 This the messiest and least explored lesson, as you'll be able to tell by the lesson plan and the lesson.
-
-All suggestions for improvement gladly accepted!
 
 -- *Slide* --
 
@@ -854,7 +864,6 @@ All suggestions for improvement gladly accepted!
 **A** True and False - Both sides have a point. If you can learn quantum physics by discovery: well, why are you
 in this room? Research has shown that pure discovery learning doesn't work: but guided investigative learning can be
 very effective in certain settings.
-
 
 # Git
 
@@ -929,7 +938,7 @@ with information about any referenced repositories.
 git submodule init
 ```
 
-**Question** Not trying to be personal, but can you init your submodules?
+**Question** Can you init your submodules?
 
 Hold up a green card when you are done
 And a red card if you need help.
@@ -988,10 +997,13 @@ open ./Presentation/Lesson_I.html  # show in browser
 ```
 
 The reason for doing this was because it means that our slides and lecture notes all live in the same file.
-Hence as we are working through them we can see what will be coming up next.
-Also, it means that we don't have to maintain separate presentation material. We just have one file.
+Hence:
 
-We/I am toying with the idea of splitting out the questions into a separate file: and of writing an app
+* As we are working through them we can see what will be coming up next.
+* We don't have to maintain separate presentation material.
+* It should help people who use screen readers track what's happening.
+
+Also we/I am toying with the idea of splitting out the questions into a separate file: and of writing an app
 to allow us to get users to actually select these from within a browser window. So that we can gather metrics
 about the responses.
 
@@ -1003,6 +1015,8 @@ Are clickers a good idea?
 
 -- *Slide End* --
 
+The downside of our slide extractor is that we run the risk of sinking into the [PowerPoint trap](http://users.ha.uth.gr/tgd/pt0501/09/Tufte.pdf)
+
 We've divided the material into one file per lesson.
 
 And there's no need for you to generate the slides: we've checked the generated slides into the repository.
@@ -1011,12 +1025,12 @@ And there's no need for you to generate the slides: we've checked the generated 
 
 ### To give the lessons (basic)
 
-* Clone the repository
-* Update the repository submodules
-* Optional: Checkout the tag you want to deliver
-* Optional: Update the introductory slide with your name
-* Optional: Regenerate the slides
-* Open the lesson slides in your browser!
+1. [ ] Clone the repository
+1. [ ] Update the repository submodules
+1. [ ] **Optional:** Checkout the tag you want to deliver
+1. [ ] **Optional:** Update the introductory slide with your name
+1. [ ] **Optional:** Regenerate the slides
+1. [ ] Open the lesson slides in your browser!
 
 -- *Slide End* --
 
@@ -1038,8 +1052,8 @@ We've settled on the following way of managing the material:
 
 There is a version number at the top of the README.md.
 That version number corresponds to the last tagged copy.
-If we are going to deliver the course and there are changes since the tagged copy given by the version number, we
-create a new version and tag it.
+If we are going to deliver the course and there are lots of changes since the tagged copy given by the 
+version number, we create a new version and tag it.
 
 This means that you should always be able to go back to a particular version in time.
 
@@ -1093,13 +1107,14 @@ in your lessons or not.
 If you have a set of notes for a particular version of the course, and that's what you want to
 deliver you can checkout that particular tag and use it.
 
--- *Slide* --
 
-### How to checkout a specific tag as a local branch:
+How to checkout a specific tag as a local branch:
 
 ```bash
 $ git checkout tags/<tag_name> -b <tag_name>
 ```
+
+-- *Slide* --
 
 ## Can you checkout version 1.0.0?
 
@@ -1124,9 +1139,12 @@ We need context and a mental structure to make sense of the facts we find on the
 we get from learning... In fact, given the amount of information available on the Internet we might need more
 learning to make sense of it all!
 
-# Personas: an introduction
 
-Now, break up into groups of 3-4 people.
+# Practical
+
+## Personas: an introduction
+
+Ok, break up into groups of 3-4 people.
 
 The first exercise that I want you to do as a group is to develop a persona.
 
@@ -1138,6 +1156,8 @@ The theory is that by understanding the needs and abilities of that persona, you
 abilities of the larger group.
 
 A good persona should represent a skill set and a behaviour pattern - not a job description.
+
+Software Carpentry make use of persona's: they call them "Learner Profiles".
 
 By example, here's a persona that we developed:
 
@@ -1190,12 +1210,11 @@ and see if we can come up with a better approach.
 
 **Ask for one or two persona's to be read out**
 
+So as you have seen, we have developed a fairly formal course intended to be delivered by a person standing
+in front of a class.
 
-# Breakout time...
-
-So as you have seen, its a fairly formal course intended to be delivered by a person standing in front of a class.
-
-And we've done a fairly high level walk through of the lesson plans.
+And we've now done a fairly high level walk through of the lesson plans and their formatting: and of the 
+tool we've developed to support our delivery.
 
 We are now going to split up into groups: each group will choose a lesson to cover. Then the group will work through
 the lesson plan and associated lesson. We'll take, say, 45 minutes to do this.
@@ -1237,9 +1256,95 @@ possible to plant false remembered experiences through clever questions.
 
 -- *Slide End* --
 
-Once you've worked through your chosen lesson and think you are ready to present hold up a Green sticky note!
+Once you've worked through your chosen lesson and think you are ready to present hold up a Green sticky note! 
+
+Remember, the easy thing about software carpentry is that you can present with the lesson right up
+in front of you. So you don't have to memorize anything. 
+
+I've seen people go as far as reading from the lesson.
+
+I try not to: I try to keep the notes to one side, and to glance at them from time to time. I do scribble highlights
+of important stuff on them so I don't miss it.
+
+The more familiar I am with material the less I need to look at the material.
+
+But I plead guilty to putting extra slides up just to keep me on track...
+
+    Take break while people go through the lessons
+
+# Improving our teaching
+
+Before we actually try presenting lets talk about improving our teaching.
+
+We all have unconscious nervous habits. I used to rock backward and forwards. 
+
+When that was pointed out to me I stopped doing it. Then I started wringing my hands instead.
+
+That was pointed out to. I stopped doing it. Then I started to rock from side to side. 
+
+That was pointed out to me...
+
+What I'm trying to say here is that I need constant input on what I'm doing, and how I can improve on it.
+
+When I was first told about my rocking from side to side, I was horrified. I took it personally. 
+
+"What did people think of me? I must have looked odd!"
+
+But the more feedback I've got, the more I've learnt to not take it personally: to rather find it interesting.
+
+In a scientific way. I've found that rather than wondering what people think of me, by trying to understand
+why I'm doing these oddities, the easier it is to tackle them.
+
+The reason I'm giving you this viewpoint is that you should solicit feedback about your teaching if you want to
+improve. And that it's just once person's point of view. Try not to take it personally. Understand it. If it has
+merit try to fix it. If it doesn't, note it. It's just how you improve!
+
+And remember, just have we have points for improvement, we also have things we do really well.
+
+So I ask for feedback in order to improve: but I always ask for one point of improvement, and for one thing 
+that I've done really well. That way I keep my equilibrium. 
+
+Never teach alone if you can help it! And solicit feedback from your fellow teachers!
+
+So now we are going to take turns in teaching a short extract from each of our chosen lessons. 
+
+    Work out a suitable time for each person to teach for
+
+At the end of each timed session we the learners will give the teacher a heads up on one thing we thought they
+can improve on, and the one thing that they do really well. Just for practice.
+
+    If there are a large number of teachers, do a random sampling
+
+Finally, before we launch into this practice:
+
+-- *Slide* --
+
+### Nerves!
+
+-- *Slide End* --
+
+I get stage fright: how do I handle it?
+
+There's a very simple technique. 
+
+-- *Slide* --
+
+["*You’re Excited, Not Nervous. You Just Keep Telling Yourself That.*"](http://nymag.com/scienceofus/2016/03/youre-excited-not-nervous-you-just-keep-telling-yourself-that.html)
+
+-- *Slide End* --
+
+You look forward to the event: its an opportunity. Don't fear it!
+
+Ok: let's present!
+
+
+    Now present and do the feedback...
+
 
 # Course feedback
+
+Now that we've all had turns presenting and getting feedback, let's turn our attention to our getting feedback
+for the course on the day.
 
 We have found the Software Carpentry technique of using sticky notes to be very handy.
 And the multi-choice questions also give a really good idea as to who needs more explanation. They also allow
@@ -1345,79 +1450,25 @@ Also, modern scanning techniques have shown that this is false. Simple activitie
 full of people, or playing a musical instrument, cause all of your brain to light up!
 
 
-# Preparation
+# Preparing to present
 
-You, the presenter, will need to:
+The course itself has a set of instructions on its home page.
 
-* Have an AAF account
-* Have checked the training material out of github
-* Have a terminal of some kind that you can ssh into instances with
+But we have an extended "checklist" on the readme of this course.
 
-Before the day, send out an email message to attendees advising them of the prerequisites.
+-- *Slide* --
 
-* Each learner will need a laptop with wifi access
-* Do we need to deal with Chromebooks? Crosh Or Chrome Shell might be needed
-* Each learner on the course must have an AAF logon.
-* Each learner must have an allocation on the Research Cloud that they can use.
+### Have we missed anything?
 
-For those that have expired trial projects we can:
+(http://tinyurl.com/ResOsPn)(https://github.com/MartinPaulo/ResOsTrainTheTrainer/blob/master/README.md)
 
-* get to pair up with others
-* have a special tenancy for the lesson, and then them to it on the fly.
-  This is not a great solution as people in the tenancy will step on each others toes.
-* have someone on hand to extend their trial tenancies on the spot?
+* <span style="color:green">&#9632;</span> = True.
+* <span style="color:red">&#9632;</span> = False.
 
-If we could get participants AAF credentials before hand, we could:
-
-* pre-create a special allocation for each person on the course that dies the day after the course.
-* run a query to check if they are part of any project, and the status of their project.
+-- *Slide End* --
 
 
-If you are going to stream people, send out a pre-assessment questionnaire
-
-Find out about the venue. Does it have enough:
-
-* Seats
-* Tables
-* Power points
-
-Does the venue have:
-
-* Network connectivity (wifi)
-* Internet access
-* A big display you can use
-* A whiteboard (or paper) that you can draw on
-* Pens (and cleaner for the whiteboard)
-
-What kind of connectors do you need to bring along for your devices?
-
-Do you have:
-
-* Network connectivity (eg: are you banking on having EduRoam work for you, and have you tested that it is available
-  and does indeed work for you...)
-* Enough sticky notes, in two different colours, to hand out to attendees at the start
-  and after each break
-* A set of answer cards, enough for each learner, lettered 'A', 'B', 'C', 'D' and 'E' respectively.
-* A set of three envelopes, at least one of which fits inside the other two, to describe ssh and man in the middle
-  attacks.
-* Any other required props?
-* A set of spare pens for people to write on the sticky notes with (It would appear in this digital age a
-  lot of people travel penless)?
-
-Is the image named `res_os_drupal7` available and public on the NeCTAR cloud?
-If so, check that it works as expected. Make a snapshot so that you hava a fall back image.
-Have you checked the slides are all as you expect?
-
-If it's not there, or doesn't work as expected, make a new image to use.
-
-## Afterwards...
-
-* Collate the feedback. Is any of it actionable?
-* Remove users from a shared tenancy (if you had to add any)
-
-# How to contribute changes back to the course
-
-## How learning works
+# How learning works
 
 Software Carpentry attempts to build on the findings of current research.
 
@@ -1498,18 +1549,36 @@ And it should be:
 
 -- *Slide End* --
 
-## Why are we telling you all of this?
+
+# How to contribute changes back to the course
+
+Why are we telling you all of this?
 
 Well, we'd like you to help us improve the material in the course.
 
-So we've created a checklist. As we work through the next section, please use the checklist
+And this stuff helps with course preparation.
 
-The software carpentry store: http://www.cafepress.com/swcarpentry
+But in contributing back, we dont' want to as painful as the tier 0 documentation!
 
-Log shell output to etherpad: https://github.com/c-martinez/shellther
+-- *Slide* --
 
-http://sciencecases.lib.buffalo.edu/cs/pdfs/Clicker%20Cases-XXXVI-2.pdf
+### Has anyone edited tier 0 documentation?
 
+* <span style="color:green">&#9632;</span> = Yes
+* <span style="color:red">&#9632;</span> = No
 
+-- *Slide End* --
 
+So either:
 
+* submit a bug report
+
+Or we are thinking:
+
+* fork the repository, make your fix and submit a pull request.
+
+If following the latter course, it would be good to discuss your fixes first if they make a lot of changes.
+
+https://help.github.com/articles/fork-a-repo/
+
+**DISCUSS** thoughts about this, and also about a support group vs. mailing list.

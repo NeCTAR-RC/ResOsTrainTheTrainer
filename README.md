@@ -137,9 +137,15 @@ If you are going to stream people, devise and send out a pre-assessment question
 * Collate the feedback. Is any of it actionable?
 * Remove users from a shared tenancy (if you had to add any)
 
-# To Do
+# Some links
 
-1. [ ] Add checklist for creating material: or remove reference to it.
-1. [ ] Add sample etherpad? https://public.etherpad-mozilla.org/p/NeCTAR_Cloud_1.0.1
+* The software carpentry store: http://www.cafepress.com/swcarpentry
+* Log shell output to Etherpad: https://github.com/c-martinez/shellther
+* http://sciencecases.lib.buffalo.edu/cs/pdfs/Clicker%20Cases-XXXVI-2.pdf
+
+
+
+# To Resolve
+
 1. [ ] As in Software Carpentry, should trainers who submit a GitHub correction get a certificate?
 1. [ ] What about a code of conduct: http://software-carpentry.org/conduct/
