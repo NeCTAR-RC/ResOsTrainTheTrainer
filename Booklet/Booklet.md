@@ -1590,3 +1590,12 @@ If following the latter course, it would be good to discuss your fixes first if 
 https://help.github.com/articles/fork-a-repo/
 
 **DISCUSS** thoughts about this, and also about a support group vs. mailing list.
+
+-- *Slide* --
+
+### Thank you
+
+* We'd like your feedback
+* [http://tinyurl.com/ResOsFb](https://docs.google.com/forms/d/1Qyu_9XhlFb0ZVavn0RCDM97CWxpEzGwDT753mRgqA9s/viewform)
+
+-- *Slide End* --
