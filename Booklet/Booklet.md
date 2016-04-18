@@ -1398,8 +1398,9 @@ https://docs.google.com/forms/d/18-FVw2R3svRyh6AE4ropHcors0wc50tqoBX5R5dUOOoo/vi
 For those of you who asked for more links to material on the cloud side:
 
 We covered the basic concepts:
-         http://training.nectar.org.au/package01/sections/all.html
-         http://training.nectar.org.au/package05/sections/all.html
+
+* http://training.nectar.org.au/package01/sections/all.html
+* http://training.nectar.org.au/package05/sections/all.html
 
 ...
 
