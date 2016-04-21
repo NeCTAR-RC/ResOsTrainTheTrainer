@@ -4,6 +4,8 @@ This a the material for a "Train the Trainers" event.
 
 The trainers are preparing to deliver the [NeCTAR cloud lessons](https://github.com/resbaz/nectar-cloud-lessons).
 
+It is assumed that the trainers recieving this training
+
 ## Git
 
 If you check this repository out be aware that it uses Git submodules to manage the reveal.js dependency.
@@ -48,11 +50,16 @@ Writing to: ./Presentation/index.html
 
 ```
 
-# Prerequisites for this course
+# Attendees prerequisites for this course
 
-1. [ ] A [GitHub account](https://github.com/join).
-1. [ ] Git locally installed.
+1. [ ] A [GitHub account](https://github.com/join)
+1. [ ] Git locally installed
+1. [ ] An active account on the NeCTAR dashboard
 
+# Instructor's notes
+
+Check that the [etherpad](https://etherpad.wikimedia.org/p/ResOsTtT) exists. If not, recreate it using the
+downloaded [version](Etherpad/ResOsTtT.etherpad)
 Remember to always walk through your slides when you regenerate them!
 
 # Preparation for delivering the actual course.
@@ -144,8 +151,9 @@ If you are going to stream people, devise and send out a pre-assessment question
 * http://sciencecases.lib.buffalo.edu/cs/pdfs/Clicker%20Cases-XXXVI-2.pdf
 
 
-
 # To Resolve
 
 1. [ ] As in Software Carpentry, should trainers who submit a GitHub correction get a certificate?
 1. [ ] What about a code of conduct: http://software-carpentry.org/conduct/
+1. [ ] Add a backing etherpad
+1. [ ] Send out reminder email about the post day survey...

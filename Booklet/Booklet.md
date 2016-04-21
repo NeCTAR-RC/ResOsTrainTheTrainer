@@ -26,6 +26,14 @@
 
 -- *Slide* --
 
+### Etherpad for today:
+
+* https://etherpad.wikimedia.org/p/ResOsTtT
+
+-- *Slide End* --
+
+-- *Slide* --
+
 ### In the beginning was ResBaz
 
 ResBaz (the [Research Bazaar](http://melbourne.resbaz.edu.au/)) is a campaign, a community and conference.
@@ -1468,7 +1476,7 @@ But we have an extended "checklist" on the readme of this course.
 
 ### Have we missed anything?
 
-(http://tinyurl.com/ResOsPn)(https://github.com/MartinPaulo/ResOsTrainTheTrainer/blob/master/README.md)
+[http://tinyurl.com/ResOsPn](https://github.com/MartinPaulo/ResOsTrainTheTrainer/blob/master/README.md)
 
 * <span style="color:green">&#9632;</span> = True.
 * <span style="color:red">&#9632;</span> = False.
