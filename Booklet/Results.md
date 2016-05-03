@@ -6,10 +6,10 @@ There were two sessions, a 2 hour one before lunch, and a 2 hour one after lunch
 
 Covered from the cloud training was:
 
-Lesson 1: Overview via the dashboard
-Lesson 2: Getting an instance up and running
-Lesson 3: SSH'ing into your instance
-Lesson 8: The Object store
+* Lesson 1: Overview via the dashboard
+* Lesson 2: Getting an instance up and running
+* Lesson 3: SSH'ing into your instance
+* Lesson 8: The Object store
 
 ## Lesson 1
 
