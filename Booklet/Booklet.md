@@ -1565,6 +1565,7 @@ And it should be:
 
 -- *Slide End* --
 
+All of this is the inverse of http://www.barbaraoakley.com/pdf/10rulesofstudying.pdf, really.
 
 # How to contribute changes back to the course
 
