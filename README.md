@@ -4,7 +4,25 @@ This a the material for a "Train the Trainers" event.
 
 The trainers are preparing to deliver the [NeCTAR cloud lessons](https://github.com/resbaz/nectar-cloud-lessons).
 
-It is assumed that the trainers recieving this training
+Thus they must be familiar with the basics of the NeCTAR cloud. These are the topics they should
+be comfortable with:
+
+* Security groups
+* Key pairs
+* Launching an instance
+* Ephemeral drives
+* Snapshots
+* ssh
+* The Linux command line
+* The object store
+
+# Attendees prerequisites for this course
+
+1. [ ] A laptop
+1. [ ] Internet access
+1. [ ] A [GitHub account](https://github.com/join)
+1. [ ] Git locally installed
+1. [ ] An active account on the NeCTAR dashboard
 
 ## Git
 
@@ -49,12 +67,6 @@ Writing to: ./Presentation/Booklet.html
 Writing to: ./Presentation/index.html
 
 ```
-
-# Attendees prerequisites for this course
-
-1. [ ] A [GitHub account](https://github.com/join)
-1. [ ] Git locally installed
-1. [ ] An active account on the NeCTAR dashboard
 
 # Instructor's notes
 
