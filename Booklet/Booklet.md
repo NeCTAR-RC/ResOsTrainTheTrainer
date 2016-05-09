@@ -1,5 +1,9 @@
 # Contents
 
+-- *Slide* --
+
+### Program
+
 * [Introduction](#introduction)
 * [Software Carpentry: an overview](#software-carpentry-an-overview)
 * [The format of the course material](#the-format-of-the-course-material)
@@ -12,6 +16,7 @@
 * [How learning works](#how-learning-works)
 * [How to contribute changes back to the course](#how-to-contribute-changes-back-to-the-course)
 
+-- *Slide End* --
 
 # Introduction
 
@@ -636,16 +641,7 @@ Is it a problem?
 
 -- *Slide End* --
 
--- *Slide* --
-
-### Is this better?
-
-<iframe width="420" height="315" src="https://www.youtube.com/embed/YEBfamv-_do?start=138" frameborder="0" allowfullscreen></iframe>
-
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
-
--- *Slide End* --
+If it's a problem, we'd like to have a better one!
 
 ## Lesson 3
 
@@ -685,7 +681,7 @@ Hence our increasingly laboured explanations around terminals...
 
 ### Our ssh analogy
 
-Is it a problem? (note that the video allows us to remove this analogy)
+Is it a problem?
 
 * <span style="color:green">&#9632;</span> = Yes.
 * <span style="color:red">&#9632;</span> = No.
