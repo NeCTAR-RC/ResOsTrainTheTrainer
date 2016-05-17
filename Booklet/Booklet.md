@@ -1,4 +1,3 @@
-# Contents
 
 -- *Slide* --
 
@@ -17,8 +16,6 @@
 * [How to contribute changes back to the course](#how-to-contribute-changes-back-to-the-course)
 
 -- *Slide End* --
-
-# Introduction
 
 -- *Slide* --
 
