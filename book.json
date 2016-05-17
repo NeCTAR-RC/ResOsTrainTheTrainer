@@ -1,0 +1,6 @@
+{
+  "title": "ResOS Train the Trainer",
+  "description": "The material used to train instructors on the ResOS cloud training material.",
+  "author": "Martin Paulo",
+  "plugins": ["prism", "-highlight"]
+}
