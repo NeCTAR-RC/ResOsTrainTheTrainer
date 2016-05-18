@@ -87,8 +87,8 @@ By raising issues!
 
 ### Do you know how to raise an issue on GitHub?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -98,8 +98,8 @@ If there are any No's: well, they need to be shown!
 
 ### True or False: Memory records exactly what we experience...
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 

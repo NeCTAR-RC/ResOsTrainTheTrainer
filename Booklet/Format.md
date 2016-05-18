@@ -6,8 +6,8 @@ We have elected to write our course material in Markdown.
 
 ### Do you know what markdown is?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -38,8 +38,8 @@ And feed it into an engine, and out comes beautifully formed HTML.
 * [http://tinyurl.com/ResOsLd](http://markdown-here.com/livedemo.html)
 * [http://tinyurl.com/ResOsMd](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
-* <span style="color:green">&#9632;</span> = I'm ready to proceed.
-* <span style="color:red">&#9632;</span> = What: there is no such site!
+* <span style="color:white;background:green">G</span> = I'm ready to proceed.
+* <span style="color:white;background:red">R</span> = What: there is no such site!
 
 -- *Slide End* --
 
@@ -139,8 +139,8 @@ In our preferred format:
 
 Then get your neighbour to check it for correctness.
 
-* <span style="color:green">&#9632;</span> = Done...
-* <span style="color:red">&#9632;</span> = Please help us!
+* <span style="color:white;background:green">G</span> = Done...
+* <span style="color:white;background:red">R</span> = Please help us!
 
 -- *Slide End* --
 
@@ -150,8 +150,8 @@ And that's about the level of markdown you need to know to work on and understan
 
 ### True or False: Physical activity helps learning
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 

@@ -6,8 +6,8 @@ As you have seen, the course material is kept under version control.
 
 ### Do you know what git is?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -176,8 +176,8 @@ markdown.
 
 And step through some of the slides?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = Houston, we've had a problem here!
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = Houston, we've had a problem here!
 
 -- *Slide End* --
 
@@ -219,8 +219,8 @@ git tag
 
 ### Can you list the tags?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -236,8 +236,8 @@ You might have to explain the above command on a board...
 
 ### Are there are any commits since the last tag?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -258,8 +258,8 @@ $ git checkout tags/<tag_name> -b <tag_name>
 
 ## Can you checkout version 1.0.0?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -267,8 +267,8 @@ $ git checkout tags/<tag_name> -b <tag_name>
 
 ### True or False: Google makes learning obsolete!
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 

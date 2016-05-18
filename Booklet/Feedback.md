@@ -97,8 +97,8 @@ We haven't trialed summary feedback yet :(
 
 ### True or False: We only use 10% of our brain...
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 

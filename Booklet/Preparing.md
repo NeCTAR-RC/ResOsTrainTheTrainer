@@ -10,8 +10,8 @@ But we have an extended "checklist" on the readme of this course.
 
 [http://tinyurl.com/ResOsPn](https://github.com/MartinPaulo/ResOsTrainTheTrainer/blob/master/README.md)
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 

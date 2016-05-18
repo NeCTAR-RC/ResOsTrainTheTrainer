@@ -8,8 +8,8 @@
 
 Can you open this in your browser?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -28,8 +28,8 @@ lessons.
 
 ### Do you think we have kept the lesson plans up to date?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -42,8 +42,8 @@ the lesson is attempting to convey is key.
 
 ### Can you find and open the lesson plans?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -89,8 +89,8 @@ for the class to follow suite...
 
 Is that a problem?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -119,8 +119,8 @@ BTW: this is how we communicate key pairs (give a run through of Pem the greek m
 
 Is it a problem?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -166,8 +166,8 @@ Hence our increasingly laboured explanations around terminals...
 
 Is it a problem?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -179,8 +179,8 @@ Can anyone think of a better one?
 
 Is it a problem?
 
-* <span style="color:green">&#9632;</span> = Yes.
-* <span style="color:red">&#9632;</span> = No.
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
 
 -- *Slide End* --
 
@@ -320,8 +320,8 @@ Is it really this simple?
 
 ### True or False: Knowledge is as perishable as a fresh fish!
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 
@@ -343,8 +343,8 @@ This the messiest and least explored lesson, as you'll be able to tell by the le
 
 ### True or False: Discovery trumps explanation
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 

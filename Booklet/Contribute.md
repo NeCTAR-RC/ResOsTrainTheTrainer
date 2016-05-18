@@ -12,8 +12,8 @@ But in contributing back, we dont' want to as painful as the tier 0 documentatio
 
 ### Has anyone edited tier 0 documentation?
 
-* <span style="color:green">&#9632;</span> = Yes
-* <span style="color:red">&#9632;</span> = No
+* <span style="color:white;background:green">G</span> = Yes
+* <span style="color:white;background:red">R</span> = No
 
 -- *Slide End* --
 

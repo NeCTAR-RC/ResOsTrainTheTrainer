@@ -64,8 +64,8 @@ MOOC style courses were also attempted. From this came the realization:
 
 ### Who's done a MOOC?
 
-* <span style="color:green">&#9632;</span> = Yes!
-* <span style="color:red">&#9632;</span> = No: why would I?
+* <span style="color:white;background:green">G</span> = Yes!
+* <span style="color:white;background:red">R</span> = No: why would I?
 
 -- *Slide End* --
 
@@ -73,8 +73,8 @@ MOOC style courses were also attempted. From this came the realization:
 
 ### Who's finished all the MOOC's they have started?
 
-* <span style="color:green">&#9632;</span> = Yes!
-* <span style="color:red">&#9632;</span> = Life. Just keeps on interfering :(
+* <span style="color:white;background:green">G</span> = Yes!
+* <span style="color:white;background:red">R</span> = Life. Just keeps on interfering :(
 
 -- *Slide End* --
 
@@ -228,8 +228,8 @@ I'm going to intersperse today with some fun things we've learnt from Software C
 
 ### True or False: People have different learning styles
 
-* <span style="color:green">&#9632;</span> = True.
-* <span style="color:red">&#9632;</span> = False.
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
 
 -- *Slide End* --
 
