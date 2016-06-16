@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Train the Trainer</title>
+
+    <meta name="description" content="Slides for the ResOS train the trainer event.">
+    <meta name="author" content="Martin Paulo">
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+<!-- to give this presentation list items numbered A, B, C etc.. for use in questions -->
+<style type="text/css">.reveal ol {list-style-type: upper-alpha;}</style>
+<!-- Slides go here -->
+<section data-markdown><script type="text/template">
+
+### Do you know what git is?
+
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### Which of these is false:
+
+Git:
+
+1. Is a version control system
+1. Is a distributed version control system
+1. Is able to run offline
+1. Has three states for files: modified, staged, committed
+1. Can do your head in...
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+"I've got a plan so cunning, you could put a tail on it and call it a weasel<sup><small>1</small></sup>"
+
+AKA: [REVEAL.JS](http://lab.hakim.se/reveal-js/#/)
+
+<small>1: [Blackadder](https://en.wikiquote.org/wiki/Blackadder)</small>
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### SlideExtractor.jar
+
+`-- *Slide* --`
+
+In the lessons any text between lines that have only the above marker
+
+And finish with only the below marker
+
+`-- *Slide End* --`
+
+Will extracted into a lesson slide.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### Discuss!
+
+Are clickers a good idea?
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### To give the lessons (basic)
+
+1. [ ] Clone the repository
+1. [ ] Update the repository submodules
+1. [ ] **Optional:** Checkout the tag you want to deliver
+1. [ ] **Optional:** Update the introductory slide with your name
+1. [ ] **Optional:** Regenerate the slides
+1. [ ] Open the lesson slides in your browser!
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### Can you open, say Lesson_II.html in your browser?
+
+And step through some of the slides?
+
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = Houston, we've had a problem here!
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### What's the current version number?
+
+1. 1.0.0
+1. 1.0.1
+1. 1.1.0
+1. 1.1.1
+1. 1.2.0
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### Can you list the tags?
+
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### Are there are any commits since the last tag?
+
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+## Can you checkout version 1.0.0?
+
+* <span style="color:white;background:green">G</span> = Yes.
+* <span style="color:white;background:red">R</span> = No.
+
+</script></section>
+<section data-markdown><script type="text/template">
+
+### True or False: Google makes learning obsolete!
+
+* <span style="color:white;background:green">G</span> = True.
+* <span style="color:white;background:red">R</span> = False.
+
+</script></section>
+    </div>
+
+</div>
+
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
+
+<script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        slideNumber: 'c/t',
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+            {
+                src: 'reveal.js/lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: 'reveal.js/plugin/markdown/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'reveal.js/plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: 'reveal.js/plugin/highlight/highlight.js', async: true, condition: function () {
+                return !!document.querySelector('pre code');
+            }, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {src: 'reveal.js/plugin/zoom-js/zoom.js', async: true},
+            {src: 'reveal.js/plugin/notes/notes.js', async: true}
+        ]
+    });
+
+</script>
+
+</body>
+</html>
