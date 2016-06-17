@@ -1,0 +1,16 @@
+{
+  "name": "ResOsTrainTheTrainer",
+  "version": "0.0.2",
+  "description": "The material used to train instructors on the ResOS cloud training material",
+  "scripts": {
+    "docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
+    "docs:pdf": "npm run docs:prepare && rm -rf _book && gitbook build && gitbook pdf ./ ./_book/TrainTheTrainer.pdf",
+    "docs:publish": "npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && git add . && git commit -am 'Update docs' && git push git@github.com:MartinPaulo/ResOsTrainTheTrainer gh-pages --force"
+  },
+  "license": "Creative Commons Attribution 4.0 International License",
+  "source": "https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba#.6n9hh1mzi",
+  "dont-forget": "to use autocover 'export NODE_PATH=/usr/local/lib/node_modules/' to use the global canvas module rather than the one locally installed by gitbooks"
+}
+

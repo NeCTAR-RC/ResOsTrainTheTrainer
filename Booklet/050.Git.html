@@ -1,0 +1,545 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Git - and our lessons · ResOS Train the Trainer</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.1.0">
+        <meta name="author" content="Martin Paulo">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="060.Practical.html" />
+    
+    
+    <link rel="prev" href="040.Overview.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    About
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="010.Introduction.html">
+            
+                <a href="010.Introduction.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="020.SoftwareCarpentry.html">
+            
+                <a href="020.SoftwareCarpentry.html">
+            
+                    
+                    Software Carpentry: an overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="030.Format.html">
+            
+                <a href="030.Format.html">
+            
+                    
+                    The format of the course material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="040.Overview.html">
+            
+                <a href="040.Overview.html">
+            
+                    
+                    An Overview of the course material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="050.Git.html">
+            
+                <a href="050.Git.html">
+            
+                    
+                    Git - and our lessons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="060.Practical.html">
+            
+                <a href="060.Practical.html">
+            
+                    
+                    Practical
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="070.Feedback.html">
+            
+                <a href="070.Feedback.html">
+            
+                    
+                    Feedback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="080.Preparing.html">
+            
+                <a href="080.Preparing.html">
+            
+                    
+                    Preparing to present
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="090.Learning.html">
+            
+                <a href="090.Learning.html">
+            
+                    
+                    How learning works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="100.Contribute.html">
+            
+                <a href="100.Contribute.html">
+            
+                    
+                    How to contribute changes back to the course
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Git - and our lessons</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="git---and-our-lessons">Git - and our lessons</h1>
+<p>As you have seen, the course material is kept under version control.</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="do-you-know-what-git-is">Do you know what git is?</h3>
+<ul>
+<li><span style="color:white;background:green">G</span> = Yes.</li>
+<li><span style="color:white;background:red">R</span> = No.</li>
+</ul>
+<p>-- <em>Slide End</em> --</p>
+<p><strong>NB</strong> If there are any &quot;No&apos;s&quot; you have to explain git...</p>
+<p>The following may help you:</p>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" _target="blank">https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control</a></li>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-Git-Basics" _target="blank">https://git-scm.com/book/en/v2/Getting-Started-Git-Basics</a></li>
+<li><a href="http://tom.preston-werner.com/2009/05/19/the-git-parable.html" _target="blank">http://tom.preston-werner.com/2009/05/19/the-git-parable.html</a></li>
+<li><a href="https://matthew-brett.github.io/pydagogue/curious_git.html" _target="blank">https://matthew-brett.github.io/pydagogue/curious_git.html</a></li>
+</ul>
+<p>-- <em>Slide</em> --</p>
+<h3 id="which-of-these-is-false">Which of these is false:</h3>
+<p>Git:</p>
+<ol>
+<li>Is a version control system</li>
+<li>Is a distributed version control system</li>
+<li>Is able to run offline</li>
+<li>Has three states for files: modified, staged, committed</li>
+<li>Can do your head in...</li>
+</ol>
+<p>-- <em>Slide End</em> --</p>
+<p>Discuss each of these options further before asking for the answer.
+For Option E you can use this:</p>
+<p>&quot;<em>Git has a very simple and powerful underlying model. Atop this model is piled an immense trashheap of confusing,
+overlapping, inconsistent commands. If you try to just learn what commands to run in what order, your life will be
+miserable, because none of the commands make sense. Learning the underlying model has a much better payoff because
+it is much easier to understand what is really going on underneath than to try to infer it, Sherlock-Holmes style,
+from the top.</em>&quot; - <a href="http://blog.plover.com/prog/two-things-about-git.html" _target="blank">Mark Dominus</a></p>
+<p><strong>Answer</strong> I believe them all to be true...</p>
+<p>Any confusion here should require further discussion...</p>
+<p>Not only is the course material kept under version control: that version control is accessible via an online
+repository, so you can revisit it at any time, use it as a stand alone course if you want to, and even, hopefully,
+contributes changes and extensions back!</p>
+<p>To check the course out onto our local machine we do the following:</p>
+<pre><code class="lang-bash"><span class="token function">git</span> clone https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>resbaz<span class="token operator">/</span>nectar<span class="token operator">-</span>cloud<span class="token operator">-</span>lessons<span class="token punctuation">.</span><span class="token function">git</span>
+</code></pre>
+<p><strong>Question</strong> Can you check the lessons out?</p>
+<p>Hold up a green card when you are done
+And a red card if you need help.</p>
+<p>The exciting thing about our repository is that we actually include a reference to another repository.</p>
+<p>So to get a copy of the child repository we need to tell git to update the local configuration files
+with information about any referenced repositories.</p>
+<pre><code class="lang-bash"><span class="token function">git</span> submodule init
+</code></pre>
+<p><strong>Question</strong> Can you init your submodules?</p>
+<p>Hold up a green card when you are done
+And a red card if you need help.</p>
+<p>Once we&apos;ve done that we tell git to fetch any referenced repositories.</p>
+<pre><code class="lang-bash"><span class="token function">git</span> submodule update
+</code></pre>
+<p><strong>Question</strong> Can you update your submodules?</p>
+<p>Hold up a green card when you are done
+And a red card if you need help.</p>
+<p>What is this referenced repository, I hear you ask?</p>
+<p>Well, to quote someone</p>
+<p>-- <em>Slide</em> --</p>
+<p>&quot;I&apos;ve got a plan so cunning, you could put a tail on it and call it a weasel<sup><small>1</small></sup>&quot;</p>
+<p>AKA: <a href="http://lab.hakim.se/reveal-js/#/" _target="blank">REVEAL.JS</a></p>
+<p><small>1: <a href="https://en.wikiquote.org/wiki/Blackadder" _target="blank">Blackadder</a></small></p>
+<p>-- <em>Slide End</em> --</p>
+<p>Reveal.js is a Javascript presentation framework. It&apos;s really cool</p>
+<p>We have written a tool that that chunders through our lecture notes...</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="slideextractorjar">SlideExtractor.jar</h3>
+<p><code>-- *Slide* --</code></p>
+<p>In the lessons any text between lines that have only the above marker</p>
+<p>And finish with only the below marker</p>
+<p><code>-- *Slide End* --</code></p>
+<p>Will extracted into a lesson slide.</p>
+<p>-- <em>Slide End</em> --</p>
+<p>Demonstrate on the command line</p>
+<pre><code class="lang-bash"><span class="token function">ls</span>  <span class="token comment" spellcheck="true"># show the jar and the properties file
+</span>java <span class="token operator">-</span>jar SlideExtractor<span class="token punctuation">.</span>jar <span class="token comment" spellcheck="true"># need to have Java. Talk about language choices  And VM choices!
+</span><span class="token function">open</span> <span class="token punctuation">.</span><span class="token operator">/</span>Presentation<span class="token operator">/</span>Lesson_I<span class="token punctuation">.</span>html  <span class="token comment" spellcheck="true"># show in browser
+</span></code></pre>
+<p>The reason for doing this was because it means that our slides and lecture notes all live in the same file.
+Hence:</p>
+<ul>
+<li>As we are working through them we can see what will be coming up next.</li>
+<li>We don&apos;t have to maintain separate presentation material.</li>
+<li>It should help people who use screen readers track what&apos;s happening.</li>
+</ul>
+<p>Also we/I am toying with the idea of splitting out the questions into a separate file: and of writing an app
+to allow us to get users to actually select these from within a browser window. So that we can gather metrics
+about the responses.</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="discuss">Discuss!</h3>
+<p>Are clickers a good idea?</p>
+<p>-- <em>Slide End</em> --</p>
+<p>The downside of our slide extractor is that we run the risk of sinking into the <a href="http://users.ha.uth.gr/tgd/pt0501/09/Tufte.pdf" _target="blank">PowerPoint trap</a></p>
+<p>We&apos;ve divided the material into one file per lesson.</p>
+<p>And there&apos;s no need for you to generate the slides: we&apos;ve checked the generated slides into the repository.</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="to-give-the-lessons-basic">To give the lessons (basic)</h3>
+<ol>
+<li>[ ] Clone the repository</li>
+<li>[ ] Update the repository submodules</li>
+<li>[ ] <strong>Optional:</strong> Checkout the tag you want to deliver</li>
+<li>[ ] <strong>Optional:</strong> Update the introductory slide with your name</li>
+<li>[ ] <strong>Optional:</strong> Regenerate the slides</li>
+<li>[ ] Open the lesson slides in your browser!</li>
+</ol>
+<p>-- <em>Slide End</em> --</p>
+<p>BTW, I just print the lesson plans off of GitHub: which does a beautiful job of rendering the
+markdown.</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="can-you-open-say-lessoniihtml-in-your-browser">Can you open, say Lesson_II.html in your browser?</h3>
+<p>And step through some of the slides?</p>
+<ul>
+<li><span style="color:white;background:green">G</span> = Yes.</li>
+<li><span style="color:white;background:red">R</span> = Houston, we&apos;ve had a problem here!</li>
+</ul>
+<p>-- <em>Slide End</em> --</p>
+<p>We&apos;ve settled on the following way of managing the material:</p>
+<p>There is a version number at the top of the README.md.
+That version number corresponds to the last tagged copy.
+If we are going to deliver the course and there are lots of changes since the tagged copy given by the
+version number, we create a new version and tag it.</p>
+<p>This means that you should always be able to go back to a particular version in time.</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="whats-the-current-version-number">What&apos;s the current version number?</h3>
+<ol>
+<li>1.0.0</li>
+<li>1.0.1</li>
+<li>1.1.0</li>
+<li>1.1.1</li>
+<li>1.2.0</li>
+</ol>
+<p>-- <em>Slide End</em> --</p>
+<p>To fetch all the tags from the remote origin:</p>
+<pre><code class="lang-bash"><span class="token function">git</span> pull <span class="token operator">--</span>tags
+</code></pre>
+<p>Then to see a list of the tags</p>
+<pre><code class="lang-bash"><span class="token function">git</span> tag
+</code></pre>
+<p>-- <em>Slide</em> --</p>
+<h3 id="can-you-list-the-tags">Can you list the tags?</h3>
+<ul>
+<li><span style="color:white;background:green">G</span> = Yes.</li>
+<li><span style="color:white;background:red">R</span> = No.</li>
+</ul>
+<p>-- <em>Slide End</em> --</p>
+<p>GitHub shows you, but if you want see the commits between the last tag and now locally</p>
+<pre><code class="lang-bash"><span class="token function">git</span> log <span class="token operator">--</span>pretty<span class="token operator">=</span>oneline master<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>1<span class="token punctuation">.</span>0<span class="token punctuation">.</span>0
+</code></pre>
+<p>You might have to explain the above command on a board...</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="are-there-are-any-commits-since-the-last-tag">Are there are any commits since the last tag?</h3>
+<ul>
+<li><span style="color:white;background:green">G</span> = Yes.</li>
+<li><span style="color:white;background:red">R</span> = No.</li>
+</ul>
+<p>-- <em>Slide End</em> --</p>
+<p>It&apos;s good to check to see if there are any changes since the last tag: and if you want to include them
+in your lessons or not.</p>
+<p>If you have a set of notes for a particular version of the course, and that&apos;s what you want to
+deliver you can checkout that particular tag and use it.</p>
+<p>How to checkout a specific tag as a local branch:</p>
+<pre><code class="lang-bash">$ <span class="token function">git</span> checkout tags<span class="token operator">/</span><span class="token operator">&lt;</span>tag_name<span class="token operator">&gt;</span> <span class="token operator">-</span>b <span class="token operator">&lt;</span>tag_name<span class="token operator">&gt;</span>
+</code></pre>
+<p>-- <em>Slide</em> --</p>
+<h2 id="can-you-checkout-version-100">Can you checkout version 1.0.0?</h2>
+<ul>
+<li><span style="color:white;background:green">G</span> = Yes.</li>
+<li><span style="color:white;background:red">R</span> = No.</li>
+</ul>
+<p>-- <em>Slide End</em> --</p>
+<p>-- <em>Slide</em> --</p>
+<h3 id="true-or-false-google-makes-learning-obsolete">True or False: Google makes learning obsolete!</h3>
+<ul>
+<li><span style="color:white;background:green">G</span> = True.</li>
+<li><span style="color:white;background:red">R</span> = False.</li>
+</ul>
+<p>-- <em>Slide End</em> --</p>
+<p><strong>A</strong> False - Would you let a brain surgeon near you who going to Google every step of your operation along the way?
+I wouldn&apos;t...</p>
+<p>We need context and a mental structure to make sense of the facts we find on the Internet. Context and structure
+we get from learning... In fact, given the amount of information available on the Internet we might need more
+learning to make sense of it all!</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="040.Overview.html" class="navigation navigation-prev " aria-label="Previous page: An Overview of the course material">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="060.Practical.html" class="navigation navigation-next " aria-label="Next page: Practical">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Git - and our lessons","level":"1.6","depth":1,"next":{"title":"Practical","level":"1.7","depth":1,"path":"Booklet/060.Practical.md","ref":"Booklet/060.Practical.md","articles":[]},"previous":{"title":"An Overview of the course material","level":"1.5","depth":1,"path":"Booklet/040.Overview.md","ref":"Booklet/040.Overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"template":"Booklet/Cover/default.svg","watermark":"Booklet/Cover/published-with-gitbook.svg","size":{"w":1800,"h":2360},"background":{"color":"#09F"}},"prism":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Martin Paulo","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"note":"add 'autocover' to the plugins above to enable the config for it below","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ResOS Train the Trainer","gitbook":"*","description":"The material used to train instructors on the ResOS cloud training material."},"file":{"path":"Booklet/050.Git.md","mtime":"2016-05-18T04:12:44.000Z","type":"markdown"},"gitbook":{"version":"3.1.0","time":"2016-06-17T01:05:18.938Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
