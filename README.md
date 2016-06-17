@@ -167,5 +167,5 @@ If you are going to stream people, devise and send out a pre-assessment question
 
 1. [ ] As in Software Carpentry, should trainers who submit a GitHub correction get a certificate?
 1. [ ] What about a code of conduct: http://software-carpentry.org/conduct/
-1. [ ] Add a backing etherpad
+1. [ ] Add a backing etherpad?
 1. [ ] Send out reminder email about the post day survey...

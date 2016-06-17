@@ -2,5 +2,24 @@
   "title": "ResOS Train the Trainer",
   "description": "The material used to train instructors on the ResOS cloud training material.",
   "author": "Martin Paulo",
-  "plugins": ["prism", "-highlight"]
+  "plugins": ["prism", "-highlight"],
+  "note": "add 'autocover' to the plugins above to enable the config for it below",
+  "pluginsConfig": {
+    "autocover": {
+      "font": {
+        "size": null,
+        "family": "Impact",
+        "color": "#FFF"
+      },
+      "template": "Booklet/Cover/default.svg",
+      "watermark": "Booklet/Cover/published-with-gitbook.svg",
+      "size": {
+        "w": 1800,
+        "h": 2360
+      },
+      "background": {
+        "color": "#09F"
+      }
+    }
+  }
 }
